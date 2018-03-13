@@ -69,13 +69,21 @@ html, body{
 }
 
 .product-item{
-    height: 325px;
+    height: 330px;
     background-color: white;
     border: 1px solid lightgrey;
     position: relative;
     padding: 10px 0 10px 0;
     text-align: center;
     margin-bottom: 10px;
+}
+
+/*.product-price{*/
+    /*float: right;*/
+/*}*/
+
+.product-price-small{
+    font-size: 10px;
 }
 
 .img-product{
@@ -85,6 +93,15 @@ html, body{
 
 .product-name{
     height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 5px 0px 5px;
+}
+
+.product-s-description{
+    height: 40px;
+    font-size: 12px;
+    font-style: italic;
 }
 
 .name_description{
@@ -92,6 +109,20 @@ html, body{
 }
 
 .product_description{
+    margin-bottom: 10px;
+}
+
+.buy-table-top, .buy-table-bottom{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.buy-table-top{
+    border-top: 1px solid darkgray;
+}
+
+.buy-table-bottom{
+    border-bottom: 1px solid darkgray;
     margin-bottom: 10px;
 }
 

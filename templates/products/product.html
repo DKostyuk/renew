@@ -11,17 +11,67 @@
                         <img src="{{ image_item.image.url }}" class="img-responsive">
                     </div>
                 {% endfor %}
+                <div class="product-line-name">
+                    <h4>{{ product.category.name }}</h4>
+                </div>
+                <div class="">
+                    <p class="product-price text-center">
+                        <strong>{{ product.price_big }} zł  / {{ product.size_big }}</strong><br>
+                        {{ product.price }} zł / {{ product.size_small }}
+                    </p>
+                </div>
             </div>
             <div class="col-lg-8">
                 <h1 class="text-center">
                     {{ product.name }}
                 </h1>
-                <div class="">
-                    <p>
-                        Price: {{ product.price }}
-                    </p>
+                <h3 class="text-center">
+                    {{ product.name_pl }}
+                </h3>
+                <div class="col-lg-12 buy-table-top">
+                    <div class="col-lg-4">
+                        <p class="product-price text-center">
+                            <strong>{{ product.price_big }} zł  / {{ product.size_big }}</strong>
+                        </p>
+                    </div>
+
+                    <form id ="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
+                        <div class="form-group col-lg-4">
+                                <input type="number" class="form-control" name="number" id="number">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <button type="submit" id="submit_btn" class="btn btn-success btn-buy"
+                                    data-product_id = "{{ product.id }}"
+                                    data-name = "{{ product.name }}"
+                                    data-price = "{{ product.price }}">
+                                Do koszyka
+                            </button>
+                        </div>
+                    </form>
                 </div>
-                <div>
+                <div class="col-lg-12 buy-table-bottom">
+                    <div class="col-lg-4">
+                        <p class="product-price text-center">
+                            {{ product.price }} zł / {{ product.size_small }}
+                        </p>
+                    </div>
+                    <form id ="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
+                        <div class="form-group col-lg-4">
+                            <input type="number" class="form-control" name="number" id="number">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <button type="submit" id="submit_btn" class="btn btn-success btn-buy"
+                                    data-product_id = "{{ product.id }}"
+                                    data-name = "{{ product.name }}"
+                                    data-price = "{{ product.price }}">
+                                Do koszyka
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="col-lg-12">
                       <!-- Nav tabs -->
                       <ul class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active">
@@ -65,7 +115,7 @@
                         <div role="tabpanel" class="tab-pane" id="settings">...</div>
                       </div>
                 </div>
-                <div>
+                <div class="col-lg-12">
                     <form id ="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
                         <div class="form-group">
                             <input type="number" class="form-control" name="number" id="number">
@@ -76,7 +126,7 @@
                                     data-name = "{{ product.name }}"
                                     data-price = "{{ product.price }}"
                             >
-                                Купить
+                                Do koszyka
                             </button>
                         </div>
                     </form>
