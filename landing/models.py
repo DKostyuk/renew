@@ -5,6 +5,7 @@ from django.dispatch import receiver
 
 
 class Subscriber(models.Model):
+    is_approved = models.BooleanField(default=False)
     email = models.EmailField()
     email_confirm = models.BooleanField(default=False)
     name = models.CharField(max_length=128)

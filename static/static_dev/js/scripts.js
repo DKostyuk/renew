@@ -1,6 +1,8 @@
 $(document).ready(function(){
-   var form = $('#form_buying_product')
-    console.log(form);
+   var form = $('#form_buying_product');
+   console.log(form);
+   var form_1 = $('#form_buying_product_1');
+   console.log(form_1);
 
 
    function basketUpdating(product_id, nmb, is_delete) {
@@ -62,35 +64,36 @@ $(document).ready(function(){
 
    });
 
+   form_1.on('submit', function (e) {
+       e.preventDefault();
+       console.log('999');
+       var nmb = $('#number_1').val();
+       console.log(nmb);
+       var  submit_btn = $('#submit_btn_1');
+       var product_id = submit_btn.data("product_id");
+       var product_name = submit_btn.data("name");
+       var product_price = submit_btn.data("price");
+       console.log(product_id);
+       console.log(product_name);
+       console.log(product_price);
+
+       basketUpdating(product_id, nmb, is_delete=false)
+
+   });
+
     function showingBasket(){
        $('.basket-items').removeClass('hidden');
     }
-
-    // $('.basket-container').on('click', function(e){
-    //     e.preventDefault();
-    //     showingBasket();
-    // });
 
     $('.basket-container').on('mouseover', function(e){
         e.preventDefault();
         showingBasket();
     });
 
-    // $('.basket-container').on('mouseover', function(e){
-    //     e.preventDefault();
-    //     $('.basket-items').removeClass('hidden');
-    // });
-
     $('.basket-container').on('mouseout', function(e){
         e.preventDefault();
         $('.basket-items').addClass('hidden');
     });
-
-
-    // $('.basket-container').on('mouseout', function(e){
-    //     e.preventDefault();
-    //     showingBasket();
-    // })
 
     $(document).on('click','.delete-item', function(e){
         e.preventDefault();
@@ -127,4 +130,5 @@ $(document).ready(function(){
 
     calculatingBasketAmount();
 
+    //------------------------------------------------------------
 });

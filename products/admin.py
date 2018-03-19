@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import *
+from django.forms import TextInput, Textarea
 
 
 class ProductImageInline(admin.TabularInline):
@@ -18,9 +19,24 @@ admin.site.register(ProductCategory, ProductCategoryAdmin)
 
 
 class ProductAdmin (admin.ModelAdmin):
-    list_display = [field.name for field in Product._meta.fields]
+    list_display = ('name', 'ref_number', 'name_pl', 'name_common', 'slug', 'size', 'price', 'discount', 'category',
+                    'is_active')
+
+    def is_description(self, obj):
+        if obj.description_1:
+            return True
+        else:
+            return False
+    is_description.short_description = 'Train'
+
+    # list_display = [field.name for field in Product._meta.fields]
     prepopulated_fields = {'slug': ('name',)}
     inlines = [ProductImageInline]
+
+    formfield_overrides = {
+        models.CharField: {'widget': TextInput(attrs={'size': '50'})},
+        models.TextField: {'widget': Textarea(attrs={'rows': 4, 'cols': 100})},
+    }
 
     class Meta:
         model = Product
@@ -35,3 +51,12 @@ class ProductImageAdmin (admin.ModelAdmin):
         model = ProductImage
 
 admin.site.register(ProductImage, ProductImageAdmin)
+
+
+class ProductAddFileAdmin(admin.ModelAdmin):
+    list_display = [field.name for field in ProductAddFile._meta.fields]
+
+    class Meta:
+        model = ProductAddFile
+
+admin.site.register(ProductAddFile, ProductAddFileAdmin)

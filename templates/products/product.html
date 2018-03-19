@@ -3,7 +3,7 @@
 
 
 {% block content %}
-    <div class="container">
+    <div class="container container-background">
         <div class="row">
             <div class="col-lg-4">
                 {% for image_item in product.productimage_set.all %}
@@ -14,122 +14,153 @@
                 <div class="product-line-name">
                     <h4>{{ product.category.name }}</h4>
                 </div>
-                <div class="">
-                    <p class="product-price text-center">
-                        <strong>{{ product.price_big }} zł  / {{ product.size_big }}</strong><br>
-                        {{ product.price }} zł / {{ product.size_small }}
-                    </p>
-                </div>
+                {% if username and user_approved == True %}
+                    <div class="col-lg-12 product-price">
+                        <div class="product-price-big text-center">
+                            <strong>{{ product.price }} zł / {{ product.size }} ml</strong>
+                        </div>
+                        <div class="product-price-small text-center">
+                            {% for product_big in products_big %}
+                                {% if product.name_common == product_big.name_common and product.name != product_big.name %}
+                                    {{ product_big.price }} zł / {{ product_big.size }} ml
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="col-lg-12 product-price">
+                        <div class="product-price-big text-center">
+                            <strong>{{ product.size }} ml
+                            {% for product_big in products_big %}
+                                {% if product.name_common == product_big.name_common and product.name != product_big.name %}
+                                    / {{ product_big.size }} ml
+                                {% endif %}
+                            {% endfor %}
+                            </strong>
+                        </div>
+                    </div>
+                {% endif %}
             </div>
             <div class="col-lg-8">
                 <h1 class="text-center">
-                    {{ product.name }}
+                    {{ product.name_common }}
                 </h1>
                 <h3 class="text-center">
                     {{ product.name_pl }}
                 </h3>
-                <div class="col-lg-12 buy-table-top">
-                    <div class="col-lg-4">
-                        <p class="product-price text-center">
-                            <strong>{{ product.price_big }} zł  / {{ product.size_big }}</strong>
-                        </p>
+                {% if username and user_approved == True %}
+                    <div class="col-lg-12">
+                        <div class="col-lg-12 buy-table">
+                            <div class="col-lg-12 buy-table-top">
+                                <div class="col-lg-4">
+                                    <p class="product-price text-center">
+                                        <strong>{{ product.price }} zł  / {{ product.size }} ml</strong>
+                                    </p>
+                                </div>
+                                <form id ="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
+                                    <div class="form-group col-lg-4">
+                                            <input type="number" class="form-control" name="number" id="number">
+                                    </div>
+                                    <div class="form-group col-lg-4">
+                                        <button type="submit" id="submit_btn" class="btn btn-success btn-buy"
+                                                data-product_id = "{{ product.id }}"
+                                                data-name = "{{ product.name }}"
+                                                data-price = "{{ product.price }}">
+                                            Dodaj do koszyka
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            {% for product_big in products_big %}
+                                {% if product.name_common == product_big.name_common and product.name != product_big.name %}
+                                    <div class="col-lg-12 buy-table-bottom">
+                                        <div class="col-lg-4">
+                                            <p class="product-price text-center">
+                                                {{ product_big.price }} zł / {{ product_big.size }} ml
+                                            </p>
+                                        </div>
+                                        <form id ="form_buying_product_1" class="form-inline" action="{% url 'basket_adding' %}">
+                                            {% csrf_token %}
+                                            <div class="form-group col-lg-4">
+                                                <input type="number" class="form-control" name="number_1" id="number_1">
+                                            </div>
+                                            <div class="form-group col-lg-4">
+                                                <button type="submit" id="submit_btn_1" class="btn btn-success btn-buy"
+                                                    data-product_id = "{{ product_big.id }}"
+                                                    data-name = "{{ product_big.name }}"
+                                                    data-price = "{{ product_big.price }}">
+                                                    Dodaj do koszyka
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
                     </div>
-
-                    <form id ="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
-                        <div class="form-group col-lg-4">
-                                <input type="number" class="form-control" name="number" id="number">
+                {% else %}
+                    <div class="col-lg-12">
+                        <div class="col-lg-12 buy-table text-center">
+                            <strong>{{ product.size }} ml
+                            {% for product_big in products_big %}
+                                {% if product.name_common == product_big.name_common and product.name != product_big.name %}
+                                     / {{ product_big.size }} ml
+                                {% endif %}
+                            {% endfor %}
+                            </strong>
                         </div>
-                        <div class="form-group col-lg-4">
-                            <button type="submit" id="submit_btn" class="btn btn-success btn-buy"
-                                    data-product_id = "{{ product.id }}"
-                                    data-name = "{{ product.name }}"
-                                    data-price = "{{ product.price }}">
-                                Do koszyka
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-lg-12 buy-table-bottom">
-                    <div class="col-lg-4">
-                        <p class="product-price text-center">
-                            {{ product.price }} zł / {{ product.size_small }}
-                        </p>
                     </div>
-                    <form id ="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
-                        <div class="form-group col-lg-4">
-                            <input type="number" class="form-control" name="number" id="number">
-                        </div>
-                        <div class="form-group col-lg-4">
-                            <button type="submit" id="submit_btn" class="btn btn-success btn-buy"
-                                    data-product_id = "{{ product.id }}"
-                                    data-name = "{{ product.name }}"
-                                    data-price = "{{ product.price }}">
-                                Do koszyka
-                            </button>
-                        </div>
-                    </form>
-                </div>
-
-
+                {% endif %}
                 <div class="col-lg-12">
                       <!-- Nav tabs -->
                       <ul class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active">
                             <a href="#description" aria-controls="home" role="tab" data-toggle="tab">
-                                Описание
+                                {{ product.name_description }}
                             </a>
                         </li>
                         <li role="presentation">
                             <a href="#delivery" aria-controls="profile" role="tab" data-toggle="tab">
-                                Доставка
+                                {{ product.name_description_1 }}
                             </a>
                         </li>
-                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                        <li role="presentation">
+                            <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+                                {{ product.name_description_2 }}
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+                                Dostawa
+                            </a>
+                        </li>
                       </ul>
 
                       <!-- Tab panes -->
                       <div class="tab-content product-description-tabs">
-                        <div role="tabpanel" class="tab-pane active" id="description">
-                            <div class="product_description">
-                                <span class="name_description"> {{ product.name_description }}</span>
-                                {% autoescape off %} {{ product.description }} {% endautoescape %}
-                            </div>
-                            <div class="product_description">
-                                <span class="name_description"> {{ product.name_description_1 }}</span>
-                                {% autoescape off %} {{ product.description_1 }} {% endautoescape %}
-                            </div>
-                            <div class="product_description">
-                                <span class="name_description"> {{ product.name_description_2 }}</span>
-                                {{ product.description_2 }}
-                            </div>
-                            <div class="product_description">
-                                <span class="name_description"> {{ product.name_description_3 }}</span>
-                                {{ product.description_3 }}
-                            </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="delivery">
-                            <h3>Как мы делаем доставку</h3>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="messages">...</div>
-                        <div role="tabpanel" class="tab-pane" id="settings">...</div>
+                          <div role="tabpanel" class="tab-pane active" id="description">
+                              <div class="product_description">
+                                  {% autoescape off %} {{ product.description }} {% endautoescape %}
+                              </div>
+                              <div class="product_description">
+                                  <span class="name_description"> {{ product.name_description_3 }}: </span>
+                                  {{ product.description_3 }} ml
+                              </div>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="delivery">
+                              <div class="product_description">
+                                  {% autoescape off %} {{ product.description_1 }} {% endautoescape %}
+                              </div>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="messages">
+                              <div class="product_description">
+                                  {% autoescape off %} {{ product.description_2 }} {% endautoescape %}
+                              </div>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="settings">
+                              How to delivery works
+                          </div>
                       </div>
-                </div>
-                <div class="col-lg-12">
-                    <form id ="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
-                        <div class="form-group">
-                            <input type="number" class="form-control" name="number" id="number">
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" id="submit_btn" class="btn btn-success btn-buy"
-                                    data-product_id = "{{ product.id }}"
-                                    data-name = "{{ product.name }}"
-                                    data-price = "{{ product.price }}"
-                            >
-                                Do koszyka
-                            </button>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>

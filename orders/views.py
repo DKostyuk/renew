@@ -6,12 +6,14 @@ from django.contrib import auth
 
 
 def basket_adding(request):
+    print(9999999999999999999999999)
     return_dict = dict()
     session_key = request.session.session_key
     data = request.POST
     product_id = data.get("product_id")
     nmb = data.get("nmb")
     is_delete = data.get("is_delete")
+    print(request.POST)
 
     if is_delete == 'true':
         ProductInBasket.objects.filter(id=product_id).update(is_active=False)

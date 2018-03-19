@@ -18,6 +18,7 @@ def getting_basket_info(request):
     user_current = Subscriber.objects.filter(email=username).first()
     if user_current:
         username = user_current.name
+        user_approved = user_current.is_approved
         user_email = user_current.email
         user_id = user_current.id
         if user_current.nip:
@@ -37,4 +38,5 @@ def getting_basket_info(request):
             user_locality = user_current.locality
 
     product_lines = ProductCategory.objects.filter(is_active=True)
+    # print(product_lines)
     return locals()

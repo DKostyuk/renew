@@ -6,32 +6,40 @@
                     <img src="{{ product_image.image.url }}" class = "img-responsive">
                 </a>
             </div>
-            {% if product_image.product.discount %}
+            {% if product_image.product.discount and username and user_approved == True %}
                 <div class="discount-container">
                     {{ product_image.product.discount }}%
                 </div>
             {% endif %}
         </div>
         <div class="product-name">
-            {{ product_image.product.name }}
+            {{ product_image.product.name_common }}
         </div>
         <div class="product-s-description">
             <p>
-            {{ product_image.product.name_pl|truncatechars_html:50 }}
+            {{ product_image.product.name_pl|truncatechars_html:70 }}
             </p>
         </div>
+        {% if username and user_approved == True %}
+            <div class="container-product-price">
+                <div class="product-price-product-item">
+                    <strong>{{ product_image.product.price }} zł</strong> / {{ product_image.product.size }} ml
+                </div>
+                <div class="product-price-small">
+                    {% for product_big in products_big %}
+                        {% if product_image.product.name_common == product_big.name_common and product_image.product.name != product_big.name %}
+                            {{ product_big.price }} zł / {{ product_big.size }} ml
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        {% else %}
+            <div class="see-more">
+                <button class="btn btn-success">
+                    See details
+                </button>
+            </div>
+        {% endif %}
 
-        <div class="product-price">
-            <strong>{{ product_image.product.price_big }} zł </strong> / {{ product_image.product.size_big }}
-        </div>
-        <div class="product-price-small">
-            {{ product_image.product.price }} zł / {{ product_image.product.size_small }}
-        </div>
-
-{#        <div class="add-to-cart-btn">#}
-{#            <button class="btn btn-success">#}
-{#                Добавить в корзину#}
-{#            </button>#}
-{#        </div>#}
     </div>
 </div>

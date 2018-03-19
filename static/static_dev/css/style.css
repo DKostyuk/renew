@@ -3,13 +3,18 @@ html, body{
     max-height: 100%;
     /*font-family: 'Roboto', sans-serif;*/
     font-family: Verdana, Geneva, sans-serif;
-    background-color: #edeef0;
+    /*background-color: #edeef0;*/
+    background-color: #f2f2f2;
 }
 
 /*.navbar{*/
     /*margin-bottom: 0;*/
     /*height: 50px;*/
 /*}*/
+
+.container-background{
+    margin-bottom: 30px;
+}
 
 .wrapper{
     min-height: 100%;
@@ -18,14 +23,6 @@ html, body{
 .wrapper-content{
     overflow: auto;
     padding-bottom: 180px; /* must be same height as the footer */
-}
-
-.footer{
-    position: relative;
-    margin-top: -180px; /* negative value of footer height */
-    height: 180px;
-    clear: both;
-    background-color: white;
 }
 
 .advert-top{
@@ -60,16 +57,16 @@ html, body{
     padding: 10px;
 }
 
-.section{
-    padding: 50px 0;
-}
+/*.section{*/
+    /*padding: 50px 0;*/
+/*}*/
 
 .section h1{
     margin-bottom: 40px;
 }
 
 .product-item{
-    height: 330px;
+    height: 324px;
     background-color: white;
     border: 1px solid lightgrey;
     position: relative;
@@ -78,9 +75,16 @@ html, body{
     margin-bottom: 10px;
 }
 
-/*.product-price{*/
-    /*float: right;*/
-/*}*/
+.container-product-price{
+    height: 35px;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+}
+
+.product-price{
+    margin-top: 10px;
+}
 
 .product-price-small{
     font-size: 10px;
@@ -117,13 +121,12 @@ html, body{
     padding-top: 10px;
 }
 
-.buy-table-top{
-    border-top: 1px solid darkgray;
-}
-
-.buy-table-bottom{
-    border-bottom: 1px solid darkgray;
+.buy-table{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .add-to-card-btn{
@@ -136,7 +139,7 @@ html, body{
 .discount-container{
     position: absolute;
     top: 30%;
-    background: #55e073;
+    background: orangered;
     width: 30%;
     color: white;
     font-weight: 700;
@@ -191,32 +194,35 @@ html, body{
 .navbar-top{
     min-height: 10px;
     height: 20px;
-    background-color: green;
+    background-color: #f2f2f2;
     border: none;
     border-radius: 0;
     margin: 0;
     /*float: right;*/
     position: relative;
-    overflow: hide;
 }
 
 .navbar-brand{
-    height: 90px;
-    background-color: #dc5129;
+    height: 70px;
+    /*background-color: #dc5129;*/
     padding: 0;
-    position:absolute;
+    /*position:absolute;*/
     z-index: 2;
     top: 0;
     overflow: visible;
-
 }
 
 .nav-logout, .nav-logout-a, .nav-login, .nav-login-a{
     padding-top: 0;
     padding-bottom: 0;
-    color: #FFFFFF;
+    color: black;
     display: inline;
     margin-right: 10px;
+}
+
+.buy-cart{
+    font-size: 14px;
+    color: black;
 }
 
 .fa-home:before {
@@ -224,9 +230,9 @@ html, body{
     font-family: FontAwesome;
 }
 
-.navbar-default .navbar-home12{
-    margin-left: 90px;
-}
+/*.navbar-default .navbar-home12{*/
+    /*margin-left: 90px;*/
+/*}*/
 
 .logo-logo{
     height: 100%;
@@ -240,15 +246,21 @@ html, body{
 }
 
 .navbar-main{
-    background-color: #55e073;
+    background-color: rgb(86, 179, 45);
     border: none;
     border-radius: 0;
+    height: 70px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
 }
 
 .basket-container{
     position: relative;
-    width: 400px;
+    width: 180px;
     padding: 15px 10px;
+    color: black;
 }
 
 .basket-items{
@@ -526,8 +538,27 @@ html, body{
 
 /*Product Line Page*/
 .product-line-name {
-    border-top: 1px solid #3338ee;
-    border-bottom: 1px solid #3338ee;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     text-align: center;
     padding: 12px;
+}
+
+/*FOOTER*/
+.footer{
+    position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    height: 180px;
+    clear: both;
+    background-color: white;
+}
+
+.social-facebook{
+    font-size: 50px;
+    color: #4267b2;
+}
+
+.footer-credits{
+    color: #aaaaaa;
+    font-size: 10px;
 }

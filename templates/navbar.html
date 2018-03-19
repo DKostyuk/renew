@@ -5,111 +5,115 @@
             <section class="top-bar-section">
                 <ul class="navbar-right">
                     {% if username %}
-                        <li class="nav-logout"><a class="nav-logout-a" href="/profile/">PROFILE</a></li>
-                        <li class="nav-logout"><a class="nav-logout-a" href="/logout/">SIGN OUT ({{ username }})</a></li>
+                        <li class="nav-logout"><a class="nav-logout-a" href="/profile/">Moje konto ({{ username }})</a></li>
+                        <li class="nav-logout"><a class="nav-logout-a" href="/logout/">Wyloguj</a></li>
                     {% else %}
                         <li class="nav-login">
-                            <a class="nav-login-a" href="/registration/">REJESTRACJA</a>
+                            <a class="nav-login-a" href="/registration/">Rejestracja</a>
                         </li>
                         <li class="nav-login">
-                            <a class="nav-login-a" href="/login/">LOGOWANIE</a>
+                            <a class="nav-login-a" href="/login/">Logowanie</a>
                         </li>
                     {% endif %}
                 </ul>
             </section>
         </div>
-        <div class="container navbar-header">
-            <a class="navbar-brand" href="#">
-                <h1 class="logo-logo">
-                    {% for logo_image in logo_images %}
-                        <span>
-                            <img src="{{ logo_image.image.url }}" class="img-responsive logo"
-                                 alt="zdrowie, uroda, odchudzanie, ciąża">
-                        </span>
-        {#                <img src="{{ logo_image.image.url }}" onclick="document.location.href='/';">#}
-                    {% endfor %}
-                </h1>
-            </a>
-        </div>
+{#        <div class="container navbar-header">#}
+{#            <a class="navbar-brand" href="#">#}
+{#                <h1 class="logo-logo">#}
+{#                    {% for logo_image in logo_images %}#}
+{#                        <span>#}
+{#                            <img src="{{ logo_image.image.url }}" class="img-responsive logo"#}
+{#                                 alt="zdrowie, uroda, odchudzanie, ciąża">#}
+{#                        </span>#}
+{#                    {% endfor %}#}
+{#                </h1>#}
+{#            </a>#}
+{#        </div>#}
     </div>
-
 
 <nav class="navbar navbar-default navbar-main">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-{#      <a class="navbar-brand" href="#">#}
-{#            <h1 class="logo-logo">#}
-{#                {% for logo_image in logo_images %}#}
-{#                    <span>#}
-{#                        <img src="{{ logo_image.image.url }}" class="img-responsive logo"#}
-{#                             alt="zdrowie, uroda, odchudzanie, ciąża">#}
-{#                    </span>#}
-    {#                <img src="{{ logo_image.image.url }}" onclick="document.location.href='/';">#}
-{#                {% endfor %}#}
-{#            </h1>#}
-{#      </a>#}
-    </div>
-    <div class="navbar-collapse collapse navbar-home12">
-      <ul class="nav navbar-nav">
-        <li class="active">
-            <a href="/" title="Strona główna">
-                <i class="fas fa-home">
-                </i>
-            </a>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-             aria-haspopup="true" aria-expanded="false"> Product Lines <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-              {% for product_line in product_lines %}
-                  <li><a href="{% url 'product_line' product_line.slug %}">{{ product_line.name }}</a></li>
-              {% endfor %}
-
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-            <div class="basket-container">
-                <a href="">Kozsyk<span id="basket_total_amount"></span><span id="basket_total_nmb">
-                    {% if products_total_nmb %}
-                        ({{ products_total_nmb }})
-                    {% else %}
-                        (0)
-                    {% endif %}
-                </span></a>
+{#    <div class="container"> </div>#}
+    <div class="container">
+        <div class="row">
+            <div class="container col-lg-3">
+                <a class="navbar-brand" href="#">
+                    <h1 class="logo-logo">
+                        {% for logo_image in logo_images %}
+                            <span>
+                                <img src="{{ logo_image.image.url }}" class="img-responsive logo"
+                                     alt="zdrowie, uroda, odchudzanie, ciąża">
+                            </span>
+                        {% endfor %}
+                    </h1>
+                </a>
             </div>
-            <div class ="basket-items hidden">
-                <ul class="">
-                    {% for product_in_basket in products_in_basket %}
-                        <li>
-                            {{ product_in_basket.product.name }} {{ product_in_basket.nmb }} шт.
-                            по {{ product_in_basket.price_per_item }} грн.
-                            <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">XXX</a>
+            <div class="col-lg-9">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse navbar-home12">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="/" title="Strona główna">
+                                <i class="fas fa-home">
+                                </i>
+                            </a>
                         </li>
-                    {% endfor %}
-                </ul>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle nav-font" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Katalog<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                      {% for product_line in product_lines %}
+                                          <li><a href="{% url 'product_line' product_line.slug %}">{{ product_line.name }}</a></li>
+                                      {% endfor %}
+                                </ul>
+                        </li>
+                        <li><a href="#about">Renew w Polsce</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            {% if username and user_approved == True %}
+                                <li>
+                                    <div class="basket-container">
+                                        <i class="fas fa-shopping-cart buy-cart"></i>
+                                        <a class="buy-cart" href="/checkout/">Kozsyk
+                                            <span id="basket_total_amount"></span><span id="basket_total_nmb">
+                                            {% if products_total_nmb %}
+                                                ({{ products_total_nmb }})
+                                            {% else %}
+                                                (jest pusty)
+                                            {% endif %}
+                                        </span></a>
+                                    </div>
+                                    <div class ="basket-items hidden">
+                                        <ul class="">
+                                            {% for product_in_basket in products_in_basket %}
+                                                <li>
+                                                    {{ product_in_basket.product.name }} {{ product_in_basket.nmb }} шт.
+                                                    по {{ product_in_basket.price_per_item }} грн.
+                                                    <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">XXX</a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </li>
+                            {% else %}
+                                <li>
+                                    <div class="basket-container">
+                                        <a href="/registration/"> Register as Professiona to Shop</a>
+                                    </div>
+                                </li>
+                            {% endif %}
+                        </ul>
+                </div><!--/.nav-collapse -->
             </div>
-
-
-        </li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
+        </div>
+    </div>
 </nav>
