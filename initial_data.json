@@ -1,6 +1,7 @@
 [
 {
    "model": "auth.user",
+   "pk": 1,
    "fields": {
       "password": "pbkdf2_sha256$36000$1vS1xiaAuii1$VrpwwHiVIgk0HISrLTds7YYzva2trYO6Ou1UOj3Vnkw=",
       "last_login": "2018-03-20T22:19:01.981Z",
@@ -5107,9 +5108,7 @@
       "start_import": true,
       "created": "2018-03-19T21:01:11.219Z",
       "updated": "2018-03-19T21:01:11.690Z",
-      "modified_by": [
-         "dkostyuk@ukr.net"
-      ]
+      "modified_by": 1
    }
 },
 {
@@ -6453,13 +6452,8 @@
    "pk": 1,
    "fields": {
       "action_time": "2018-03-12T21:18:02.486Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "5",
       "object_repr": "119.00, Dermo Control Mask",
       "action_flag": 2,
@@ -6471,13 +6465,8 @@
    "pk": 2,
    "fields": {
       "action_time": "2018-03-12T21:20:35.763Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "5",
       "object_repr": "119.00, Dermo Control Mask",
       "action_flag": 2,
@@ -6489,13 +6478,8 @@
    "pk": 3,
    "fields": {
       "action_time": "2018-03-14T05:38:34.959Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "159.00, Hydration Gel 150 ml",
       "action_flag": 2,
@@ -6507,13 +6491,8 @@
    "pk": 4,
    "fields": {
       "action_time": "2018-03-14T05:41:11.483Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "6",
       "object_repr": "350, Hydration Gel 300 ml",
       "action_flag": 1,
@@ -6525,13 +6504,8 @@
    "pk": 5,
    "fields": {
       "action_time": "2018-03-15T17:27:45.736Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "5",
       "object_repr": "119.00, Dermo Control Mask",
       "action_flag": 2,
@@ -6543,13 +6517,8 @@
    "pk": 6,
    "fields": {
       "action_time": "2018-03-15T17:28:51.867Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "5",
       "object_repr": "119.00, Dermo Control Mask 216 ml",
       "action_flag": 2,
@@ -6561,13 +6530,8 @@
    "pk": 7,
    "fields": {
       "action_time": "2018-03-15T17:39:37.058Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "4",
       "object_repr": "314.99, Moisturizing Cream for Oily and Combination Skin Oil-Free 50 ml",
       "action_flag": 2,
@@ -6579,13 +6543,8 @@
    "pk": 8,
    "fields": {
       "action_time": "2018-03-15T17:41:04.997Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "3",
       "object_repr": "40.99, Phyto Complex 75 ml",
       "action_flag": 2,
@@ -6597,13 +6556,8 @@
    "pk": 9,
    "fields": {
       "action_time": "2018-03-15T17:42:34.667Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "2",
       "object_repr": "259.99, Drying Treatment with Make-Up 750 ml",
       "action_flag": 2,
@@ -6615,13 +6569,8 @@
    "pk": 10,
    "fields": {
       "action_time": "2018-03-15T17:43:10.855Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "4",
       "object_repr": "314.99, Moisturizing Cream for Oily and Combination Skin Oil-Free 50 ml",
       "action_flag": 2,
@@ -6633,13 +6582,8 @@
    "pk": 11,
    "fields": {
       "action_time": "2018-03-15T17:43:46.005Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "3",
       "object_repr": "40.99, Phyto Complex 75 ml",
       "action_flag": 2,
@@ -6651,13 +6595,8 @@
    "pk": 12,
    "fields": {
       "action_time": "2018-03-15T17:45:15.981Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "6",
       "object_repr": "107.00, Hydration Gel 100 ml",
       "action_flag": 2,
@@ -6669,13 +6608,8 @@
    "pk": 13,
    "fields": {
       "action_time": "2018-03-15T17:48:42.681Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "1",
       "object_repr": "DERMO CONTROL",
       "action_flag": 2,
@@ -6687,13 +6621,8 @@
    "pk": 14,
    "fields": {
       "action_time": "2018-03-15T17:49:06.687Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "2",
       "object_repr": "PROPIOGUARD",
       "action_flag": 2,
@@ -6705,13 +6634,8 @@
    "pk": 15,
    "fields": {
       "action_time": "2018-03-17T06:11:30.365Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "landing",
-         "subscriber"
-      ],
+      "user": 1,
+      "content_type": 7,
       "object_id": "1",
       "object_repr": "User 1 Dmytro Kostyuk dkostyuk@ukr.net Kiev",
       "action_flag": 2,
@@ -6723,13 +6647,8 @@
    "pk": 16,
    "fields": {
       "action_time": "2018-03-17T06:47:54.144Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "auth",
-         "user"
-      ],
+      "user": 1,
+      "content_type": 4,
       "object_id": "1",
       "object_repr": "dkostyuk@ukr.net",
       "action_flag": 2,
@@ -6741,13 +6660,8 @@
    "pk": 17,
    "fields": {
       "action_time": "2018-03-18T08:11:19.889Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "landing",
-         "logoimage"
-      ],
+      "user": 1,
+      "content_type": 8,
       "object_id": "2",
       "object_repr": "2",
       "action_flag": 2,
@@ -6759,13 +6673,8 @@
    "pk": 18,
    "fields": {
       "action_time": "2018-03-18T10:13:58.482Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "landing",
-         "logoimage"
-      ],
+      "user": 1,
+      "content_type": 8,
       "object_id": "2",
       "object_repr": "2",
       "action_flag": 2,
@@ -6777,13 +6686,8 @@
    "pk": 19,
    "fields": {
       "action_time": "2018-03-18T11:04:02.089Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "landing",
-         "logoimage"
-      ],
+      "user": 1,
+      "content_type": 8,
       "object_id": "2",
       "object_repr": "2",
       "action_flag": 2,
@@ -6795,13 +6699,8 @@
    "pk": 20,
    "fields": {
       "action_time": "2018-03-18T12:18:04.675Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "1",
       "object_repr": "BLOSSOM",
       "action_flag": 2,
@@ -6813,13 +6712,8 @@
    "pk": 21,
    "fields": {
       "action_time": "2018-03-18T12:18:41.428Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "2",
       "object_repr": "DERMO CONTROL",
       "action_flag": 2,
@@ -6831,13 +6725,8 @@
    "pk": 22,
    "fields": {
       "action_time": "2018-03-18T12:18:58.514Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "3",
       "object_repr": "PROPIOGUARD",
       "action_flag": 2,
@@ -6849,13 +6738,8 @@
    "pk": 23,
    "fields": {
       "action_time": "2018-03-18T12:19:34.322Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "4",
       "object_repr": "GOLDEN AGE",
       "action_flag": 2,
@@ -6867,13 +6751,8 @@
    "pk": 24,
    "fields": {
       "action_time": "2018-03-18T12:20:31.009Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "5",
       "object_repr": "ANTI AGE",
       "action_flag": 1,
@@ -6885,13 +6764,8 @@
    "pk": 25,
    "fields": {
       "action_time": "2018-03-18T12:21:15.956Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "6",
       "object_repr": "EYE LINE",
       "action_flag": 1,
@@ -6903,13 +6777,8 @@
    "pk": 26,
    "fields": {
       "action_time": "2018-03-18T12:21:36.963Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "7",
       "object_repr": "REDNESS",
       "action_flag": 1,
@@ -6921,13 +6790,8 @@
    "pk": 27,
    "fields": {
       "action_time": "2018-03-18T12:21:56.961Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "8",
       "object_repr": "WHITENING",
       "action_flag": 1,
@@ -6939,13 +6803,8 @@
    "pk": 28,
    "fields": {
       "action_time": "2018-03-18T12:22:24.757Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "9",
       "object_repr": "PEELINGS",
       "action_flag": 1,
@@ -6957,13 +6816,8 @@
    "pk": 29,
    "fields": {
       "action_time": "2018-03-18T12:22:41.191Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "10",
       "object_repr": "MASKS",
       "action_flag": 1,
@@ -6975,13 +6829,8 @@
    "pk": 30,
    "fields": {
       "action_time": "2018-03-18T12:23:21.963Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "11",
       "object_repr": "GELS & CREAMS",
       "action_flag": 1,
@@ -6993,13 +6842,8 @@
    "pk": 31,
    "fields": {
       "action_time": "2018-03-18T12:23:54.476Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "12",
       "object_repr": "MZ COMPLEX",
       "action_flag": 1,
@@ -7011,13 +6855,8 @@
    "pk": 32,
    "fields": {
       "action_time": "2018-03-18T12:24:18.981Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "13",
       "object_repr": "SERUM & PEPTIDE",
       "action_flag": 1,
@@ -7029,13 +6868,8 @@
    "pk": 33,
    "fields": {
       "action_time": "2018-03-18T17:12:41.182Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "159.00, Hydration Gel 150 ml",
       "action_flag": 2,
@@ -7047,13 +6881,8 @@
    "pk": 34,
    "fields": {
       "action_time": "2018-03-18T17:57:52.089Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "159.00, Hydration Gel 150 ml",
       "action_flag": 2,
@@ -7065,13 +6894,8 @@
    "pk": 35,
    "fields": {
       "action_time": "2018-03-18T18:13:44.253Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "105, Hydration Gel 250 ml",
       "action_flag": 2,
@@ -7083,13 +6907,8 @@
    "pk": 36,
    "fields": {
       "action_time": "2018-03-18T19:03:40.120Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "105.00, Hydration Gel 250 ml",
       "action_flag": 2,
@@ -7101,13 +6920,8 @@
    "pk": 37,
    "fields": {
       "action_time": "2018-03-18T19:09:21.130Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "105.00, Hydration Gel 250 ml",
       "action_flag": 2,
@@ -7119,13 +6933,8 @@
    "pk": 38,
    "fields": {
       "action_time": "2018-03-18T19:49:28.763Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "105.00, Hydration Gel 250 ml",
       "action_flag": 2,
@@ -7137,13 +6946,8 @@
    "pk": 39,
    "fields": {
       "action_time": "2018-03-18T19:54:30.042Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "2",
       "object_repr": "49, Drying Treatment with Make-Up 30 ml",
       "action_flag": 2,
@@ -7155,13 +6959,8 @@
    "pk": 40,
    "fields": {
       "action_time": "2018-03-18T19:57:31.652Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "3",
       "object_repr": "79, Phyto Complex 30 ml",
       "action_flag": 2,
@@ -7173,13 +6972,8 @@
    "pk": 41,
    "fields": {
       "action_time": "2018-03-18T20:01:55.023Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "4",
       "object_repr": "314.99, Moisturizing Cream for Oily and Combination Skin Oil-Free 50 ml",
       "action_flag": 3,
@@ -7191,13 +6985,8 @@
    "pk": 42,
    "fields": {
       "action_time": "2018-03-18T20:04:33.189Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "5",
       "object_repr": "129, Dermo control Mask 250 ml",
       "action_flag": 2,
@@ -7209,13 +6998,8 @@
    "pk": 43,
    "fields": {
       "action_time": "2018-03-18T20:05:34.907Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "6",
       "object_repr": "107.00, Hydration Gel 100 ml",
       "action_flag": 3,
@@ -7227,13 +7011,8 @@
    "pk": 44,
    "fields": {
       "action_time": "2018-03-18T20:07:58.254Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "7",
       "object_repr": "69, Dermo control Mask 70 ml",
       "action_flag": 1,
@@ -7245,13 +7024,8 @@
    "pk": 45,
    "fields": {
       "action_time": "2018-03-18T20:11:25.029Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "8",
       "object_repr": "49, Drying Treatment 30 ml",
       "action_flag": 1,
@@ -7263,13 +7037,8 @@
    "pk": 46,
    "fields": {
       "action_time": "2018-03-18T20:16:00.210Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "9",
       "object_repr": "109, Dermo control Cleansing Gel 500 ml",
       "action_flag": 1,
@@ -7281,13 +7050,8 @@
    "pk": 47,
    "fields": {
       "action_time": "2018-03-18T20:17:39.798Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "9",
       "object_repr": "109.00, Dermo control Cleansing Gel 500 ml",
       "action_flag": 2,
@@ -7299,13 +7063,8 @@
    "pk": 48,
    "fields": {
       "action_time": "2018-03-18T20:19:36.018Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "10",
       "object_repr": "69, Dermo control Cleansing Gel 250 ml",
       "action_flag": 1,
@@ -7317,13 +7076,8 @@
    "pk": 49,
    "fields": {
       "action_time": "2018-03-18T20:21:57.020Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "11",
       "object_repr": "109, Dermo control Lotion 500 ml",
       "action_flag": 1,
@@ -7335,13 +7089,8 @@
    "pk": 50,
    "fields": {
       "action_time": "2018-03-18T20:22:15.088Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "9",
       "object_repr": "109.00, Dermo control Cleansing Gel 500 ml",
       "action_flag": 2,
@@ -7353,13 +7102,8 @@
    "pk": 51,
    "fields": {
       "action_time": "2018-03-18T20:23:59.892Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "12",
       "object_repr": "69, Dermo control Lotion 250 ml",
       "action_flag": 1,
@@ -7371,13 +7115,8 @@
    "pk": 52,
    "fields": {
       "action_time": "2018-03-18T20:26:32.210Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "13",
       "object_repr": "129, Moisturizing Cream for Oily & Problem Skin SPF-15 250 ml",
       "action_flag": 1,
@@ -7389,13 +7128,8 @@
    "pk": 53,
    "fields": {
       "action_time": "2018-03-18T20:28:41.029Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "14",
       "object_repr": "69, Moisturizing Cream for Oily & Problem Skin SPF-15 70 ml",
       "action_flag": 1,
@@ -7407,13 +7141,8 @@
    "pk": 54,
    "fields": {
       "action_time": "2018-03-18T20:30:12.355Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "15",
       "object_repr": "129, Moisturizing Cream for Oily Skin oil-free 250 ml",
       "action_flag": 1,
@@ -7425,13 +7154,8 @@
    "pk": 55,
    "fields": {
       "action_time": "2018-03-18T20:31:43.949Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "16",
       "object_repr": "69, Moisturizing Cream for Oily Skin oil-free 70 ml",
       "action_flag": 1,
@@ -7443,13 +7167,8 @@
    "pk": 56,
    "fields": {
       "action_time": "2018-03-18T20:34:47.942Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "17",
       "object_repr": "89, Deep Lathering Abstergent 250 ml",
       "action_flag": 1,
@@ -7461,13 +7180,8 @@
    "pk": 57,
    "fields": {
       "action_time": "2018-03-18T20:37:29.653Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "18",
       "object_repr": "99, Complex Peel Solution 250 ml",
       "action_flag": 1,
@@ -7479,13 +7193,8 @@
    "pk": 58,
    "fields": {
       "action_time": "2018-03-18T20:39:28.544Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "19",
       "object_repr": "169, Sunscreen Triple Active Day Cream 250 ml",
       "action_flag": 1,
@@ -7497,13 +7206,8 @@
    "pk": 59,
    "fields": {
       "action_time": "2018-03-18T20:40:46.794Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "20",
       "object_repr": "89, Sunscreen Triple Active Day Cream 50 ml",
       "action_flag": 1,
@@ -7515,13 +7219,8 @@
    "pk": 60,
    "fields": {
       "action_time": "2018-03-18T20:43:21.348Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "21",
       "object_repr": "169, Krem wielozadaniowy na noc do sk\u00f3ry tr\u0105dzikowej 250 ml",
       "action_flag": 1,
@@ -7533,13 +7232,8 @@
    "pk": 61,
    "fields": {
       "action_time": "2018-03-18T20:43:56.062Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "21",
       "object_repr": "169.00, Krem wielozadaniowy na noc do sk\u00f3ry tr\u0105dzikowej 250 ml",
       "action_flag": 3,
@@ -7551,13 +7245,8 @@
    "pk": 62,
    "fields": {
       "action_time": "2018-03-18T20:45:20.389Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "22",
       "object_repr": "169, Multifuncional Accelerative Cream 250 ml",
       "action_flag": 1,
@@ -7569,13 +7258,8 @@
    "pk": 63,
    "fields": {
       "action_time": "2018-03-18T20:46:35.509Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "23",
       "object_repr": "89, Multifuncional Accelerative Cream 50 ml",
       "action_flag": 1,
@@ -7587,13 +7271,8 @@
    "pk": 64,
    "fields": {
       "action_time": "2018-03-18T20:47:48.274Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "24",
       "object_repr": "69, Propotalc 50 ml",
       "action_flag": 1,
@@ -7605,13 +7284,8 @@
    "pk": 65,
    "fields": {
       "action_time": "2018-03-18T20:50:30.427Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "25",
       "object_repr": "109, Moisturizing Cleanser 500 ml",
       "action_flag": 1,
@@ -7623,13 +7297,8 @@
    "pk": 66,
    "fields": {
       "action_time": "2018-03-18T20:51:50.222Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "26",
       "object_repr": "69, Moisturizing Cleanser 250 ml",
       "action_flag": 1,
@@ -7641,13 +7310,8 @@
    "pk": 67,
    "fields": {
       "action_time": "2018-03-18T20:53:55.605Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "27",
       "object_repr": "109, Hydrofresh Lotion 500 ml",
       "action_flag": 1,
@@ -7659,13 +7323,8 @@
    "pk": 68,
    "fields": {
       "action_time": "2018-03-18T20:55:05.876Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "28",
       "object_repr": "69, Hydrofresh Lotion 250 ml",
       "action_flag": 1,
@@ -7677,13 +7336,8 @@
    "pk": 69,
    "fields": {
       "action_time": "2018-03-18T20:57:40.133Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "29",
       "object_repr": "149, Massage Multivitamin Serum 100 ml",
       "action_flag": 1,
@@ -7695,13 +7349,8 @@
    "pk": 70,
    "fields": {
       "action_time": "2018-03-18T20:59:02.418Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "30",
       "object_repr": "99, Multivitamin Serum 35 ml",
       "action_flag": 1,
@@ -7713,13 +7362,8 @@
    "pk": 71,
    "fields": {
       "action_time": "2018-03-18T21:02:28.596Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "31",
       "object_repr": "129, Moisturizing Mask 250 ml",
       "action_flag": 1,
@@ -7731,13 +7375,8 @@
    "pk": 72,
    "fields": {
       "action_time": "2018-03-18T21:03:26.625Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "32",
       "object_repr": "69, Moisturizing Mask 70 ml",
       "action_flag": 1,
@@ -7749,13 +7388,8 @@
    "pk": 73,
    "fields": {
       "action_time": "2018-03-18T21:07:38.352Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "33",
       "object_repr": "219, Eye Contour Cream 250 ml",
       "action_flag": 1,
@@ -7767,13 +7401,8 @@
    "pk": 74,
    "fields": {
       "action_time": "2018-03-18T21:08:54.568Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "34",
       "object_repr": "109, Eye Contour Cream 30 ml",
       "action_flag": 1,
@@ -7785,13 +7414,8 @@
    "pk": 75,
    "fields": {
       "action_time": "2018-03-18T21:10:47.493Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "35",
       "object_repr": "159, Night Active Cream 250 ml",
       "action_flag": 1,
@@ -7803,13 +7427,8 @@
    "pk": 76,
    "fields": {
       "action_time": "2018-03-18T21:12:16.746Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "36",
       "object_repr": "99, Night Active Cream 50 ml",
       "action_flag": 1,
@@ -7821,13 +7440,8 @@
    "pk": 77,
    "fields": {
       "action_time": "2018-03-19T18:49:30.729Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productaddfile"
-      ],
+      "user": 1,
+      "content_type": 31,
       "object_id": "1",
       "object_repr": "1",
       "action_flag": 1,
@@ -7839,13 +7453,8 @@
    "pk": 78,
    "fields": {
       "action_time": "2018-03-19T18:50:13.685Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "38",
       "object_repr": "89.00, Anti Aging Firming Mask 70 ml",
       "action_flag": 3,
@@ -7857,13 +7466,8 @@
    "pk": 79,
    "fields": {
       "action_time": "2018-03-19T18:50:13.710Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "37",
       "object_repr": "169.00, Anti Aging Firming Mask 250 ml",
       "action_flag": 3,
@@ -7875,13 +7479,8 @@
    "pk": 80,
    "fields": {
       "action_time": "2018-03-19T18:50:31.021Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productaddfile"
-      ],
+      "user": 1,
+      "content_type": 31,
       "object_id": "1",
       "object_repr": "1",
       "action_flag": 3,
@@ -7893,13 +7492,8 @@
    "pk": 81,
    "fields": {
       "action_time": "2018-03-19T19:04:47.786Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "105.00, Hydration Gel 250 ml",
       "action_flag": 2,
@@ -7911,13 +7505,8 @@
    "pk": 82,
    "fields": {
       "action_time": "2018-03-19T19:11:19.803Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "9",
       "object_repr": "109.00, Dermo control Cleansing Gel 500 ml",
       "action_flag": 2,
@@ -7929,13 +7518,8 @@
    "pk": 83,
    "fields": {
       "action_time": "2018-03-19T19:13:25.478Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "9",
       "object_repr": "109.00, Dermo control Cleansing Gel 500 ml",
       "action_flag": 2,
@@ -7947,13 +7531,8 @@
    "pk": 84,
    "fields": {
       "action_time": "2018-03-19T19:19:45.134Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "9",
       "object_repr": "109.00, Dermo control Cleansing Gel 500 ml",
       "action_flag": 2,
@@ -7965,13 +7544,8 @@
    "pk": 85,
    "fields": {
       "action_time": "2018-03-19T19:20:22.500Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "9",
       "object_repr": "109.00, Dermo control Cleansing Gel 500 ml",
       "action_flag": 2,
@@ -7983,13 +7557,8 @@
    "pk": 86,
    "fields": {
       "action_time": "2018-03-19T19:23:09.978Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "11",
       "object_repr": "109.00, Dermo control Lotion 500 ml",
       "action_flag": 2,
@@ -8001,13 +7570,8 @@
    "pk": 87,
    "fields": {
       "action_time": "2018-03-19T19:25:56.830Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "1",
       "object_repr": "105.00, Hydration Gel 250 ml",
       "action_flag": 2,
@@ -8019,13 +7583,8 @@
    "pk": 88,
    "fields": {
       "action_time": "2018-03-19T19:28:01.936Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "5",
       "object_repr": "129.00, Dermo control Mask 250 ml",
       "action_flag": 2,
@@ -8037,13 +7596,8 @@
    "pk": 89,
    "fields": {
       "action_time": "2018-03-19T19:32:46.435Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "13",
       "object_repr": "129.00, Moisturizing Cream for Oily & Problem Skin SPF-15 250 ml",
       "action_flag": 2,
@@ -8055,13 +7609,8 @@
    "pk": 90,
    "fields": {
       "action_time": "2018-03-19T19:34:47.822Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "13",
       "object_repr": "129.00, Moisturizing Cream for Oily & Problem Skin SPF-15 250 ml",
       "action_flag": 2,
@@ -8073,13 +7622,8 @@
    "pk": 91,
    "fields": {
       "action_time": "2018-03-19T19:35:23.852Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "14",
       "object_repr": "69.00, Moisturizing Cream for Oily & Problem Skin SPF-15 70 ml",
       "action_flag": 2,
@@ -8091,13 +7635,8 @@
    "pk": 92,
    "fields": {
       "action_time": "2018-03-19T19:46:31.089Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "15",
       "object_repr": "129.00, Moisturizing Cream for Oily Skin oil-free 250 ml",
       "action_flag": 2,
@@ -8109,13 +7648,8 @@
    "pk": 93,
    "fields": {
       "action_time": "2018-03-19T19:46:53.525Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "16",
       "object_repr": "69.00, Moisturizing Cream for Oily Skin oil-free 70 ml",
       "action_flag": 2,
@@ -8127,13 +7661,8 @@
    "pk": 94,
    "fields": {
       "action_time": "2018-03-19T19:50:56.449Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "3",
       "object_repr": "79.00, Phyto Complex 30 ml",
       "action_flag": 2,
@@ -8145,13 +7674,8 @@
    "pk": 95,
    "fields": {
       "action_time": "2018-03-19T19:53:02.834Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "2",
       "object_repr": "49.00, Drying Treatment with Make-Up 30 ml",
       "action_flag": 2,
@@ -8163,13 +7687,8 @@
    "pk": 96,
    "fields": {
       "action_time": "2018-03-19T19:53:37.287Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "8",
       "object_repr": "49.00, Drying Treatment 30 ml",
       "action_flag": 2,
@@ -8181,13 +7700,8 @@
    "pk": 97,
    "fields": {
       "action_time": "2018-03-19T19:56:44.295Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "17",
       "object_repr": "89.00, Deep Lathering Abstergent 250 ml",
       "action_flag": 2,
@@ -8199,13 +7713,8 @@
    "pk": 98,
    "fields": {
       "action_time": "2018-03-19T19:58:24.469Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "18",
       "object_repr": "99.00, Complex Peel Solution 250 ml",
       "action_flag": 2,
@@ -8217,13 +7726,8 @@
    "pk": 99,
    "fields": {
       "action_time": "2018-03-19T19:59:22.706Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "19",
       "object_repr": "169.00, Sunscreen Triple Active Day Cream 250 ml",
       "action_flag": 2,
@@ -8235,13 +7739,8 @@
    "pk": 100,
    "fields": {
       "action_time": "2018-03-19T20:00:23.441Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "22",
       "object_repr": "169.00, Multifuncional Accelerative Cream 250 ml",
       "action_flag": 2,
@@ -8253,13 +7752,8 @@
    "pk": 101,
    "fields": {
       "action_time": "2018-03-19T20:01:19.624Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "24",
       "object_repr": "69.00, Propotalc 50 ml",
       "action_flag": 2,
@@ -8271,13 +7765,8 @@
    "pk": 102,
    "fields": {
       "action_time": "2018-03-19T20:02:21.473Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "25",
       "object_repr": "109.00, Moisturizing Cleanser 500 ml",
       "action_flag": 2,
@@ -8289,13 +7778,8 @@
    "pk": 103,
    "fields": {
       "action_time": "2018-03-19T20:03:44.742Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "27",
       "object_repr": "109.00, Hydrofresh Lotion 500 ml",
       "action_flag": 2,
@@ -8307,13 +7791,8 @@
    "pk": 104,
    "fields": {
       "action_time": "2018-03-19T20:10:54.034Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "35",
       "object_repr": "159.00, Night Active Cream 250 ml",
       "action_flag": 2,
@@ -8325,13 +7804,8 @@
    "pk": 105,
    "fields": {
       "action_time": "2018-03-19T20:13:31.196Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "33",
       "object_repr": "219.00, Eye Contour Cream 250 ml",
       "action_flag": 2,
@@ -8343,13 +7817,8 @@
    "pk": 106,
    "fields": {
       "action_time": "2018-03-19T20:15:27.951Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "29",
       "object_repr": "149.00, Massage Multivitamin Serum 100 ml",
       "action_flag": 2,
@@ -8361,13 +7830,8 @@
    "pk": 107,
    "fields": {
       "action_time": "2018-03-19T20:17:45.352Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "31",
       "object_repr": "129.00, Moisturizing Mask 250 ml",
       "action_flag": 2,
@@ -8379,13 +7843,8 @@
    "pk": 108,
    "fields": {
       "action_time": "2018-03-19T20:23:51.284Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "30",
       "object_repr": "99.00, Multivitamin Serum 35 ml",
       "action_flag": 2,
@@ -8397,13 +7856,8 @@
    "pk": 109,
    "fields": {
       "action_time": "2018-03-19T21:01:11.692Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productaddfile"
-      ],
+      "user": 1,
+      "content_type": 31,
       "object_id": "2",
       "object_repr": "2",
       "action_flag": 1,
@@ -8415,13 +7869,8 @@
    "pk": 110,
    "fields": {
       "action_time": "2018-03-19T21:06:14.343Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "55",
       "object_repr": "109.00, Gentle Eye & Lip Make-up Remover 500 ml",
       "action_flag": 2,
@@ -8433,13 +7882,8 @@
    "pk": 111,
    "fields": {
       "action_time": "2018-03-19T21:07:26.228Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "58",
       "object_repr": "179.00, Eye Complex Mask 250 ml",
       "action_flag": 2,
@@ -8451,13 +7895,8 @@
    "pk": 112,
    "fields": {
       "action_time": "2018-03-19T21:08:58.994Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "60",
       "object_repr": "169.00, Eye Lifting Serum  50 ml",
       "action_flag": 2,
@@ -8469,13 +7908,8 @@
    "pk": 113,
    "fields": {
       "action_time": "2018-03-19T21:10:08.758Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "57",
       "object_repr": "199.00, Eye Complex Peeling 30 ml",
       "action_flag": 2,
@@ -8487,13 +7921,8 @@
    "pk": 114,
    "fields": {
       "action_time": "2018-03-19T21:11:23.603Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "62",
       "object_repr": "169.00, Eye Complex Gel 50 ml",
       "action_flag": 2,
@@ -8505,13 +7934,8 @@
    "pk": 115,
    "fields": {
       "action_time": "2018-03-19T21:13:26.944Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "55",
       "object_repr": "109.00, Gentle Eye & Lip Make-up Remover 500 ml",
       "action_flag": 2,
@@ -8523,13 +7947,8 @@
    "pk": 116,
    "fields": {
       "action_time": "2018-03-19T21:14:55.954Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "57",
       "object_repr": "199.00, Eye Complex Peeling 30 ml",
       "action_flag": 2,
@@ -8541,13 +7960,8 @@
    "pk": 117,
    "fields": {
       "action_time": "2018-03-19T21:15:43.136Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "58",
       "object_repr": "179.00, Eye Complex Mask 250 ml",
       "action_flag": 2,
@@ -8559,13 +7973,8 @@
    "pk": 118,
    "fields": {
       "action_time": "2018-03-19T21:16:13.776Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "60",
       "object_repr": "169.00, Eye Lifting Serum  50 ml",
       "action_flag": 2,
@@ -8577,13 +7986,8 @@
    "pk": 119,
    "fields": {
       "action_time": "2018-03-19T21:16:52.603Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "62",
       "object_repr": "169.00, Eye Complex Gel 50 ml",
       "action_flag": 2,
@@ -8595,13 +7999,8 @@
    "pk": 120,
    "fields": {
       "action_time": "2018-03-19T21:20:06.651Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "64",
       "object_repr": "199.00, Redness Gentle Peel 50 ml",
       "action_flag": 2,
@@ -8613,13 +8012,8 @@
    "pk": 121,
    "fields": {
       "action_time": "2018-03-19T21:22:09.233Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "66",
       "object_repr": "169.00, Redness Mask 250 ml",
       "action_flag": 2,
@@ -8631,13 +8025,8 @@
    "pk": 122,
    "fields": {
       "action_time": "2018-03-19T21:23:40.858Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "65",
       "object_repr": "139.00, Redness Concentrate 30 ml",
       "action_flag": 2,
@@ -8649,13 +8038,8 @@
    "pk": 123,
    "fields": {
       "action_time": "2018-03-19T21:25:25.896Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "68",
       "object_repr": "129.00, Redness Balm 50 ml",
       "action_flag": 2,
@@ -8667,13 +8051,8 @@
    "pk": 124,
    "fields": {
       "action_time": "2018-03-19T21:29:16.502Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "84",
       "object_repr": "129.00, Cream-Peeling Gommage 250 ml",
       "action_flag": 2,
@@ -8685,13 +8064,8 @@
    "pk": 125,
    "fields": {
       "action_time": "2018-03-19T21:30:41.974Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "80",
       "object_repr": "149.00, AHA Peeling 250 ml",
       "action_flag": 2,
@@ -8703,13 +8077,8 @@
    "pk": 126,
    "fields": {
       "action_time": "2018-03-19T21:32:41.199Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "82",
       "object_repr": "159.00, GSC Acid Cream-Peeling 250 ml",
       "action_flag": 2,
@@ -8721,13 +8090,8 @@
    "pk": 127,
    "fields": {
       "action_time": "2018-03-19T21:34:00.446Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "83",
       "object_repr": "169.00, Glycolact Gel-Peeling 250 ml",
       "action_flag": 2,
@@ -8739,13 +8103,8 @@
    "pk": 128,
    "fields": {
       "action_time": "2018-03-19T21:35:12.941Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "86",
       "object_repr": "139.00, Enzyme Exfoliator 250 ml",
       "action_flag": 2,
@@ -8757,13 +8116,8 @@
    "pk": 129,
    "fields": {
       "action_time": "2018-03-19T21:38:15.916Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "88",
       "object_repr": "129.00, Pearl Peeling 250 ml",
       "action_flag": 2,
@@ -8775,13 +8129,8 @@
    "pk": 130,
    "fields": {
       "action_time": "2018-03-19T21:40:40.187Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "100",
       "object_repr": "129.00, Calming Fresh Mask for Oily Skin 250 ml",
       "action_flag": 2,
@@ -8793,13 +8142,8 @@
    "pk": 131,
    "fields": {
       "action_time": "2018-03-19T21:42:01.589Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "101",
       "object_repr": "129.00, Calming Fresh Mask for Normal Skin 250 ml",
       "action_flag": 2,
@@ -8811,13 +8155,8 @@
    "pk": 132,
    "fields": {
       "action_time": "2018-03-19T21:43:09.307Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "102",
       "object_repr": "129.00, Calming Fresh Mask for Dry Skin 250 ml",
       "action_flag": 2,
@@ -8829,13 +8168,8 @@
    "pk": 133,
    "fields": {
       "action_time": "2018-03-19T21:46:10.026Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "90",
       "object_repr": "129.00, Gentle Mask Passiflora 250 ml",
       "action_flag": 2,
@@ -8847,13 +8181,8 @@
    "pk": 134,
    "fields": {
       "action_time": "2018-03-19T21:47:47.197Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "94",
       "object_repr": "139.00, Age Reverse Mask Vitamin C 250 ml",
       "action_flag": 2,
@@ -8865,13 +8194,8 @@
    "pk": 135,
    "fields": {
       "action_time": "2018-03-19T21:48:54.926Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "96",
       "object_repr": "129.00, Pearl Mask 250 ml",
       "action_flag": 2,
@@ -8883,13 +8207,8 @@
    "pk": 136,
    "fields": {
       "action_time": "2018-03-19T21:50:22.070Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "92",
       "object_repr": "129.00, Purifying Mask 250 ml",
       "action_flag": 2,
@@ -8901,13 +8220,8 @@
    "pk": 137,
    "fields": {
       "action_time": "2018-03-19T21:52:08.233Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "98",
       "object_repr": "129.00, Firming Instant Mask Green Clay & Sea-Weed 250 ml",
       "action_flag": 2,
@@ -8919,13 +8233,8 @@
    "pk": 138,
    "fields": {
       "action_time": "2018-03-19T21:54:59.556Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "125",
       "object_repr": "189.00, Age Reverse Serum Vitamin C 50 ml",
       "action_flag": 2,
@@ -8937,13 +8246,8 @@
    "pk": 139,
    "fields": {
       "action_time": "2018-03-19T21:57:10.054Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "127",
       "object_repr": "189.00, Rejuvenating Serum Retinol 50 ml",
       "action_flag": 2,
@@ -8955,13 +8259,8 @@
    "pk": 140,
    "fields": {
       "action_time": "2018-03-19T21:58:02.416Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "125",
       "object_repr": "189.00, Age Reverse Serum Vitamin C 50 ml",
       "action_flag": 2,
@@ -8973,13 +8272,8 @@
    "pk": 141,
    "fields": {
       "action_time": "2018-03-19T21:58:30.145Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "127",
       "object_repr": "189.00, Rejuvenating Serum Retinol 50 ml",
       "action_flag": 2,
@@ -8991,13 +8285,8 @@
    "pk": 142,
    "fields": {
       "action_time": "2018-03-19T21:59:32.059Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "129",
       "object_repr": "169.00, Multi Peptide Tightening Serum 35 ml",
       "action_flag": 2,
@@ -9009,13 +8298,8 @@
    "pk": 143,
    "fields": {
       "action_time": "2018-03-19T22:01:11.439Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "130",
       "object_repr": "169.00, Silky Wrinkle Corrector 35 ml",
       "action_flag": 2,
@@ -9027,13 +8311,8 @@
    "pk": 144,
    "fields": {
       "action_time": "2018-03-19T22:02:11.073Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "131",
       "object_repr": "169.00, Bio Corrector Multipeptide Cream 30 ml",
       "action_flag": 2,
@@ -9045,13 +8324,8 @@
    "pk": 145,
    "fields": {
       "action_time": "2018-03-19T22:04:52.901Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "103",
       "object_repr": "109.00, Cleanser for Dry & Normal Skin 500 ml",
       "action_flag": 2,
@@ -9063,13 +8337,8 @@
    "pk": 146,
    "fields": {
       "action_time": "2018-03-19T22:06:24.158Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "105",
       "object_repr": "159.00, Enriched Moisturizing Cream SPF-18 250 ml",
       "action_flag": 2,
@@ -9081,13 +8350,8 @@
    "pk": 147,
    "fields": {
       "action_time": "2018-03-19T22:07:45.690Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "107",
       "object_repr": "179.00, Moisturizing Cream Vitamin C SPF-25 250 ml",
       "action_flag": 2,
@@ -9099,13 +8363,8 @@
    "pk": 148,
    "fields": {
       "action_time": "2018-03-19T22:08:52.498Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "109",
       "object_repr": "109.00, AHA Skin Repair 50 ml",
       "action_flag": 2,
@@ -9117,13 +8376,8 @@
    "pk": 149,
    "fields": {
       "action_time": "2018-03-19T22:10:01.546Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "110",
       "object_repr": "159.00, Antiwrinkle Cream 250 ml",
       "action_flag": 2,
@@ -9135,13 +8389,8 @@
    "pk": 150,
    "fields": {
       "action_time": "2018-03-19T22:11:21.310Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "112",
       "object_repr": "179.00, Skin Recover Cream 250 ml",
       "action_flag": 2,
@@ -9153,13 +8402,8 @@
    "pk": 151,
    "fields": {
       "action_time": "2018-03-19T22:13:00.823Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "114",
       "object_repr": "149.00, Extra Moisturizer 250 ml",
       "action_flag": 2,
@@ -9171,13 +8415,8 @@
    "pk": 152,
    "fields": {
       "action_time": "2018-03-19T22:14:09.591Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "116",
       "object_repr": "149.00, Neck & Decollete Firming Cream 250 ml",
       "action_flag": 2,
@@ -9189,13 +8428,8 @@
    "pk": 153,
    "fields": {
       "action_time": "2018-03-19T22:15:43.749Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "118",
       "object_repr": "129.00, Aloevend Gel 250 ml",
       "action_flag": 2,
@@ -9207,13 +8441,8 @@
    "pk": 154,
    "fields": {
       "action_time": "2018-03-19T22:17:33.306Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "119",
       "object_repr": "59.00, Aloevend Gel 100 ml",
       "action_flag": 2,
@@ -9225,13 +8454,8 @@
    "pk": 155,
    "fields": {
       "action_time": "2018-03-19T22:19:40.410Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "120",
       "object_repr": "259.00, Dew Drops + HA 100 ml",
       "action_flag": 2,
@@ -9243,13 +8467,8 @@
    "pk": 156,
    "fields": {
       "action_time": "2018-03-19T22:22:06.535Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "2",
       "object_repr": "DERMO CONTROL",
       "action_flag": 2,
@@ -9261,13 +8480,8 @@
    "pk": 157,
    "fields": {
       "action_time": "2018-03-19T22:23:13.660Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "3",
       "object_repr": "PROPIOGUARD",
       "action_flag": 2,
@@ -9279,13 +8493,8 @@
    "pk": 158,
    "fields": {
       "action_time": "2018-03-19T22:24:03.714Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "4",
       "object_repr": "GOLDEN AGE",
       "action_flag": 2,
@@ -9297,13 +8506,8 @@
    "pk": 159,
    "fields": {
       "action_time": "2018-03-19T22:24:47.674Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "6",
       "object_repr": "EYE LINE",
       "action_flag": 2,
@@ -9315,13 +8519,8 @@
    "pk": 160,
    "fields": {
       "action_time": "2018-03-19T22:25:24.234Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "7",
       "object_repr": "REDNESS",
       "action_flag": 2,
@@ -9333,13 +8532,8 @@
    "pk": 161,
    "fields": {
       "action_time": "2018-03-19T22:26:46.599Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "productcategory"
-      ],
+      "user": 1,
+      "content_type": 10,
       "object_id": "9",
       "object_repr": "PEELINGS",
       "action_flag": 2,
@@ -9351,13 +8545,8 @@
    "pk": 162,
    "fields": {
       "action_time": "2018-03-20T22:23:31.438Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "28",
       "object_repr": "69.00, Hydrofresh Lotion 250 ml",
       "action_flag": 2,
@@ -9369,13 +8558,8 @@
    "pk": 163,
    "fields": {
       "action_time": "2018-03-20T22:23:37.840Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "26",
       "object_repr": "69.00, Moisturizing Cleanser 250 ml",
       "action_flag": 2,
@@ -9387,13 +8571,8 @@
    "pk": 164,
    "fields": {
       "action_time": "2018-03-20T22:23:46.030Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "23",
       "object_repr": "89.00, Multifuncional Accelerative Cream 50 ml",
       "action_flag": 2,
@@ -9405,13 +8584,8 @@
    "pk": 165,
    "fields": {
       "action_time": "2018-03-20T22:23:53.127Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "20",
       "object_repr": "89.00, Sunscreen Triple Active Day Cream 50 ml",
       "action_flag": 2,
@@ -9423,13 +8597,8 @@
    "pk": 166,
    "fields": {
       "action_time": "2018-03-20T22:23:59.642Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "12",
       "object_repr": "69.00, Dermo control Lotion 250 ml",
       "action_flag": 2,
@@ -9441,13 +8610,8 @@
    "pk": 167,
    "fields": {
       "action_time": "2018-03-20T22:24:07.084Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "10",
       "object_repr": "69.00, Dermo control Cleansing Gel 250 ml",
       "action_flag": 2,
@@ -9459,13 +8623,8 @@
    "pk": 168,
    "fields": {
       "action_time": "2018-03-20T22:24:13.198Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "7",
       "object_repr": "69.00, Dermo control Mask 70 ml",
       "action_flag": 2,
@@ -9477,13 +8636,8 @@
    "pk": 169,
    "fields": {
       "action_time": "2018-03-20T22:24:55.009Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "36",
       "object_repr": "99.00, Night Active Cream 50 ml",
       "action_flag": 2,
@@ -9495,13 +8649,8 @@
    "pk": 170,
    "fields": {
       "action_time": "2018-03-20T22:25:01.099Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "34",
       "object_repr": "109.00, Eye Contour Cream 30 ml",
       "action_flag": 2,
@@ -9513,13 +8662,8 @@
    "pk": 171,
    "fields": {
       "action_time": "2018-03-20T22:25:06.267Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "products",
-         "product"
-      ],
+      "user": 1,
+      "content_type": 11,
       "object_id": "32",
       "object_repr": "69.00, Moisturizing Mask 70 ml",
       "action_flag": 2,
@@ -9531,13 +8675,8 @@
    "pk": 172,
    "fields": {
       "action_time": "2018-03-20T22:56:38.305Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "landing",
-         "subscriber"
-      ],
+      "user": 1,
+      "content_type": 7,
       "object_id": "2",
       "object_repr": "User 2 Tata dmyto.kostyuk@gmail.com None",
       "action_flag": 3,
@@ -9549,13 +8688,8 @@
    "pk": 173,
    "fields": {
       "action_time": "2018-03-20T22:56:38.321Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "landing",
-         "subscriber"
-      ],
+      "user": 1,
+      "content_type": 7,
       "object_id": "1",
       "object_repr": "User 1 Dmytro Kostyuk dkostyuk@ukr.net Kiev",
       "action_flag": 3,
@@ -9567,13 +8701,8 @@
    "pk": 174,
    "fields": {
       "action_time": "2018-03-20T23:00:28.868Z",
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "content_type": [
-         "auth",
-         "user"
-      ],
+      "user": 1,
+      "content_type": 4,
       "object_id": "2",
       "object_repr": "dmyto.kostyuk@gmail.com",
       "action_flag": 3,
