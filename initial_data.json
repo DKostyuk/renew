@@ -210,50 +210,6 @@
    }
 },
 {
-   "model": "landing.subscriber",
-   "pk": 1,
-   "fields": {
-      "is_approved": true,
-      "email": "dkostyuk@ukr.net",
-      "email_confirm": true,
-      "name": "Dmytro Kostyuk",
-      "city": "Kiev",
-      "index": "03-162",
-      "street": "Zodchikh 50A-145",
-      "locality": null,
-      "tel_number": null,
-      "company_name": "Renew-Polska",
-      "nip": null,
-      "company_confirm": true,
-      "user": [
-         "dkostyuk@ukr.net"
-      ],
-      "bio": ""
-   }
-},
-{
-   "model": "landing.subscriber",
-   "pk": 2,
-   "fields": {
-      "is_approved": false,
-      "email": "dmyto.kostyuk@gmail.com",
-      "email_confirm": true,
-      "name": "Tata",
-      "city": null,
-      "index": null,
-      "street": null,
-      "locality": null,
-      "tel_number": null,
-      "company_name": null,
-      "nip": null,
-      "company_confirm": false,
-      "user": [
-         "dmyto.kostyuk@gmail.com"
-      ],
-      "bio": ""
-   }
-},
-{
    "model": "landing.logoimage",
    "pk": 2,
    "fields": {
@@ -9585,6 +9541,42 @@
       "object_repr": "69.00, Moisturizing Mask 70 ml",
       "action_flag": 2,
       "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 172,
+   "fields": {
+      "action_time": "2018-03-20T22:56:38.305Z",
+      "user": [
+         "dkostyuk@ukr.net"
+      ],
+      "content_type": [
+         "landing",
+         "subscriber"
+      ],
+      "object_id": "2",
+      "object_repr": "User 2 Tata dmyto.kostyuk@gmail.com None",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 173,
+   "fields": {
+      "action_time": "2018-03-20T22:56:38.321Z",
+      "user": [
+         "dkostyuk@ukr.net"
+      ],
+      "content_type": [
+         "landing",
+         "subscriber"
+      ],
+      "object_id": "1",
+      "object_repr": "User 1 Dmytro Kostyuk dkostyuk@ukr.net Kiev",
+      "action_flag": 3,
+      "change_message": ""
    }
 }
 ]
