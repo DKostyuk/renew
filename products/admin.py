@@ -20,7 +20,7 @@ admin.site.register(ProductCategory, ProductCategoryAdmin)
 
 class ProductAdmin (admin.ModelAdmin):
     list_display = ('name', 'ref_number', 'name_pl', 'name_common', 'slug', 'size', 'price', 'discount', 'category',
-                    'is_active')
+                    'description_3', 'is_active')
 
     def is_description(self, obj):
         if obj.description_1:

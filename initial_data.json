@@ -4,7 +4,7 @@
    "pk": 1,
    "fields": {
       "password": "pbkdf2_sha256$36000$1vS1xiaAuii1$VrpwwHiVIgk0HISrLTds7YYzva2trYO6Ou1UOj3Vnkw=",
-      "last_login": "2018-03-20T19:37:46.561Z",
+      "last_login": "2018-03-20T22:19:01.981Z",
       "is_superuser": true,
       "username": "dkostyuk@ukr.net",
       "first_name": "",
@@ -61,14 +61,6 @@
 },
 {
    "model": "sessions.session",
-   "pk": "3ve0jlfamq4m801vp1mj67icmr8kg48d",
-   "fields": {
-      "session_data": "YWE1MzM5ODRiNTdkOGE3ODZkYWQ2YThjYzFiNDA2M2Y2NGU0NmRiNTp7InNlc3Npb25fa2V5IjoxMjN9",
-      "expire_date": "2018-04-03T20:46:15.061Z"
-   }
-},
-{
-   "model": "sessions.session",
    "pk": "5hcemgts8lti17kqyca59dkhjafur2pi",
    "fields": {
       "session_data": "YWE1MzM5ODRiNTdkOGE3ODZkYWQ2YThjYzFiNDA2M2Y2NGU0NmRiNTp7InNlc3Npb25fa2V5IjoxMjN9",
@@ -105,6 +97,14 @@
    "fields": {
       "session_data": "NDYzMDcyMjNkMjU1YmU4OTM0OWQxMjJkNzRjNjQxZmNiNWJiZjJhZTp7InNlc3Npb25fa2V5IjoxMjMsIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3ZTg4YmY4ZjY1ODA2ODdjMjYzMjM3YjMwMzdlZjk5NTk3ZDIyOGIwIn0=",
       "expire_date": "2017-11-18T13:04:59.483Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "dv0b7nwnpyrg0a477xtjc7gw4peuzniw",
+   "fields": {
+      "session_data": "YTk1MzM1MTM1NDU3OTNiMmE1N2IzMWVkMDIwNDEzMDcyNjcwMmIyYjp7InNlc3Npb25fa2V5IjoxMjMsIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMTcyMmZiZDU4N2I5ZmFkMzI5ZTk0MmU4MzBmYmMyYWJlY2M5MTdmIn0=",
+      "expire_date": "2018-04-03T22:19:02.029Z"
    }
 },
 {
@@ -696,7 +696,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -704,7 +704,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T20:07:58.250Z",
-      "updated": "2018-03-18T20:07:58.250Z"
+      "updated": "2018-03-20T22:24:13.190Z"
    }
 },
 {
@@ -789,7 +789,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>111 ml</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -797,7 +797,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T20:19:36.013Z",
-      "updated": "2018-03-18T20:19:36.013Z"
+      "updated": "2018-03-20T22:24:07.075Z"
    }
 },
 {
@@ -851,7 +851,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -859,7 +859,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T20:23:59.888Z",
-      "updated": "2018-03-18T20:23:59.888Z"
+      "updated": "2018-03-20T22:23:59.636Z"
    }
 },
 {
@@ -1099,7 +1099,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -1107,7 +1107,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T20:40:46.790Z",
-      "updated": "2018-03-18T20:40:46.791Z"
+      "updated": "2018-03-20T22:23:53.119Z"
    }
 },
 {
@@ -1161,7 +1161,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -1169,7 +1169,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T20:46:35.505Z",
-      "updated": "2018-03-18T20:46:35.506Z"
+      "updated": "2018-03-20T22:23:46.019Z"
    }
 },
 {
@@ -1254,7 +1254,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -1262,7 +1262,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T20:51:50.218Z",
-      "updated": "2018-03-18T20:51:50.218Z"
+      "updated": "2018-03-20T22:23:37.831Z"
    }
 },
 {
@@ -1316,7 +1316,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -1324,7 +1324,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T20:55:05.872Z",
-      "updated": "2018-03-18T20:55:05.872Z"
+      "updated": "2018-03-20T22:23:31.430Z"
    }
 },
 {
@@ -1440,7 +1440,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -1448,7 +1448,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T21:03:26.621Z",
-      "updated": "2018-03-18T21:03:26.621Z"
+      "updated": "2018-03-20T22:25:06.256Z"
    }
 },
 {
@@ -1502,7 +1502,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -1510,7 +1510,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T21:08:54.562Z",
-      "updated": "2018-03-18T21:08:54.562Z"
+      "updated": "2018-03-20T22:25:01.091Z"
    }
 },
 {
@@ -1564,7 +1564,7 @@
       "name_description_2": "Sk\u0142adniki aktywne",
       "description_2": "<p>1</p>",
       "name_description_3": "Zu\u017cycie",
-      "description_3": "<p>1</p>",
+      "description_3": "1",
       "name_description_4": null,
       "description_4": "",
       "name_description_5": null,
@@ -1572,7 +1572,7 @@
       "short_description": "",
       "is_active": true,
       "created": "2018-03-18T21:12:16.743Z",
-      "updated": "2018-03-18T21:12:16.743Z"
+      "updated": "2018-03-20T22:24:55.001Z"
    }
 },
 {
@@ -8596,6 +8596,136 @@
       "object_repr": "PEELINGS",
       "action_flag": 2,
       "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 162,
+   "fields": {
+      "action_time": "2018-03-20T22:23:31.438Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "28",
+      "object_repr": "69.00, Hydrofresh Lotion 250 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 163,
+   "fields": {
+      "action_time": "2018-03-20T22:23:37.840Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "26",
+      "object_repr": "69.00, Moisturizing Cleanser 250 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 164,
+   "fields": {
+      "action_time": "2018-03-20T22:23:46.030Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "23",
+      "object_repr": "89.00, Multifuncional Accelerative Cream 50 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 165,
+   "fields": {
+      "action_time": "2018-03-20T22:23:53.127Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "20",
+      "object_repr": "89.00, Sunscreen Triple Active Day Cream 50 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 166,
+   "fields": {
+      "action_time": "2018-03-20T22:23:59.642Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "12",
+      "object_repr": "69.00, Dermo control Lotion 250 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 167,
+   "fields": {
+      "action_time": "2018-03-20T22:24:07.084Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "10",
+      "object_repr": "69.00, Dermo control Cleansing Gel 250 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 168,
+   "fields": {
+      "action_time": "2018-03-20T22:24:13.198Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "69.00, Dermo control Mask 70 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 169,
+   "fields": {
+      "action_time": "2018-03-20T22:24:55.009Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "36",
+      "object_repr": "99.00, Night Active Cream 50 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 170,
+   "fields": {
+      "action_time": "2018-03-20T22:25:01.099Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "34",
+      "object_repr": "109.00, Eye Contour Cream 30 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 171,
+   "fields": {
+      "action_time": "2018-03-20T22:25:06.267Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "32",
+      "object_repr": "69.00, Moisturizing Mask 70 ml",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description_3\"]}}]"
    }
 }
 ]
