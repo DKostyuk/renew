@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="637b66b3-b7e0-4685-a61d-a0e48d04c95e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addresses/models.py" afterPath="$PROJECT_DIR$/addresses/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/models.py" afterPath="$PROJECT_DIR$/blogs/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cosmetologs/models.py" afterPath="$PROJECT_DIR$/cosmetologs/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orders/models.py" afterPath="$PROJECT_DIR$/orders/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/views.py" afterPath="$PROJECT_DIR$/landing/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,9 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product-name</find>
-      <find>product-s-description</find>
-      <find>b_</find>
       <find>border</find>
       <find>buy-table-top</find>
       <find>product-line</find>
@@ -77,6 +71,9 @@
       <find>Foreign</find>
       <find>Foreign</find>
       <find>ForeignKey</find>
+      <find>from django.urls import reverse</find>
+      <find>import reverse</find>
+      <find>reverse</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\DK\Documents\01_Django\projects\FirstProjectWrap\b_project</dir>
