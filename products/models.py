@@ -29,7 +29,7 @@ class Product(models.Model):
     size = models.CharField(max_length=10, blank=True, null=True, default=None)
     price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     discount = models.IntegerField(default=0)
-    category = models.ForeignKey(ProductCategory, blank=True, null=True, default=None)
+    category = models.ForeignKey(ProductCategory, blank=True, null=True, default=None, on_delete=models.CASCADE)
     name_description = models.CharField(max_length=64, blank=True, null=True, default='Opis')
     description = RichTextField(default=None)
     # description = models.TextField(blank=True, null=True, default=None)
@@ -63,7 +63,7 @@ class Product(models.Model):
 
 
 class ProductImage(models.Model):
-    product = models.ForeignKey(Product, blank=True, null=True, default=None)
+    product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='products_images/')
     is_active = models.BooleanField(default=True)
     is_main = models.BooleanField(default=False)
@@ -85,7 +85,7 @@ class ProductAddFile(models.Model):
     start_import = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
-    modified_by = models.ForeignKey(User, blank=True, null=True, default=None)
+    modified_by = models.ForeignKey(User, blank=True, null=True, default=None, on_delete=models.CASCADE)
 
     def __str__(self):
         return "%s" % self.id
