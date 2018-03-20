@@ -96,9 +96,9 @@
                                         <ul class="">
                                             {% for product_in_basket in products_in_basket %}
                                                 <li>
-                                                    {{ product_in_basket.product.name }} {{ product_in_basket.nmb }} шт.
-                                                    по {{ product_in_basket.price_per_item }} грн.
-                                                    <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">XXX</a>
+                                                    {{ product_in_basket.product.name }} ({{ product_in_basket.nmb }} szt
+                                                    по {{ product_in_basket.price_per_item }} zł)
+                                                    <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}"></a>
                                                 </li>
                                             {% endfor %}
                                         </ul>
@@ -106,8 +106,12 @@
                                 </li>
                             {% else %}
                                 <li>
-                                    <div class="basket-container">
-                                        <a href="/registration/"> Register as Professiona to Shop</a>
+                                    <div class="basket-container-registration">
+                                        <div class="basket-container-registration-child">
+                                            <a href="/registration/" class="basket-container-registration-text">
+                                                Zarejestruj się jako Specjalista <br>i<br>Kupuj
+                                            </a>
+                                        </div>
                                     </div>
                                 </li>
                             {% endif %}

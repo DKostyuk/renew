@@ -28,9 +28,8 @@
         <div class="general-container-background container-background">
             <div class="container top-container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h1 class="title">Наш магазин скоро откроется!<br>
-                        Оставляйте Ваш имейл в форме ниже</h1>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h1 class="title">Załóż konto Specjalista</h1>
                         <div>
                             <form action="/registration/" method="post" class="text-center col-lg-4 col-lg-offset-4">
                                 {% csrf_token %}
@@ -57,7 +56,7 @@
                                 <input name="{{ form.password2.name }}" type="hidden" class="form-control"
                                        placeholder="Powtórz Hasło">
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-orange">Отправить</button>
+                                <button type="submit" class="btn btn-primary btn-orange">Zarejestruj się</button>
                             </form>
 
                         </div>

@@ -1,25 +1,584 @@
 html, body{
     height: 100%;
     max-height: 100%;
-    font-family: 'Roboto', sans-serif;
-    background-color: #edeef0;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: Verdana, Geneva, sans-serif;
+    /*background-color: #edeef0;*/
+    background-color: #f2f2f2;
+}
+
+/*.navbar{*/
+    /*margin-bottom: 0;*/
+    /*height: 50px;*/
+/*}*/
+
+.container-background{
+    margin-bottom: 30px;
+}
+
+.wrapper{
+    min-height: 100%;
+}
+
+.wrapper-content{
+    overflow: auto;
+    padding-bottom: 180px; /* must be same height as the footer */
+}
+
+.advert-top{
+    margin-bottom: 5px;
+}
+
+.advert-right-up-container{
+    height: 145px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.advert-right-down-container{
+    height: 150px;
+    padding-top: 5px;
+    overflow: hidden;
 }
 
 .section-top{
-    margin: 20px;
+    margin-bottom: 20px
+}
+
+.promo-slider{
+    height: 266px;
+}
+.slider-top, .advert-left, .advert-right, .advert-right-up, .advert-right-down{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-description-tabs{
+    padding: 10px;
+}
+
+/*.section{*/
+    /*padding: 50px 0;*/
+/*}*/
+
+.section h1{
+    margin-bottom: 40px;
 }
 
 .product-item{
-    height: 360px;
+    height: 324px;
     background-color: white;
-    border: 1px solid lightgray;
+    border: 1px solid lightgrey;
     position: relative;
-    padding: 5px;
+    padding: 10px 0 10px 0;
     text-align: center;
     margin-bottom: 10px;
 }
-.add-to-cart-btn{
+
+.container-product-price{
+    height: 35px;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+}
+
+.product-price{
+    margin-top: 10px;
+}
+
+.product-price-small{
+    font-size: 10px;
+}
+
+.img-product{
+    width: 190px;
+    height: 192px;
+}
+
+.product-name{
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 5px 0px 5px;
+}
+
+.product-s-description{
+    height: 40px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.name_description{
+    font-weight: bold;
+}
+
+.product_description{
+    margin-bottom: 10px;
+}
+
+.buy-table-top, .buy-table-bottom{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.buy-table{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add-to-card-btn{
     position: absolute;
     bottom: 15px;
-    left: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.discount-container{
+    position: absolute;
+    top: 30%;
+    background: orangered;
+    width: 30%;
+    color: white;
+    font-weight: 700;
+    padding: 3px;
+}
+
+/*Blog item box*/
+.blog-item{
+    height: 305px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    position: relative;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.img-blog{
+    width: 190px;
+    height: 135px;
+}
+
+.blog-name{
+    height: 55px;
+}
+
+.read-all{
+    background-color: #975a4e;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.read-all-text{
+    color: #ffffff;
+}
+
+.section-delivery{
+    height: 300px;
+    background-color: darkseagreen;
+    text-align: center;
+    color: white;
+}
+
+.product-image-item{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-top{
+    min-height: 10px;
+    height: 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    /*float: right;*/
+    position: relative;
+}
+
+.navbar-brand{
+    height: 70px;
+    /*background-color: #dc5129;*/
+    padding: 0;
+    /*position:absolute;*/
+    z-index: 2;
+    top: 0;
+    overflow: visible;
+}
+
+.nav-logout, .nav-logout-a, .nav-login, .nav-login-a{
+    padding-top: 0;
+    padding-bottom: 0;
+    color: black;
+    display: inline;
+    margin-right: 10px;
+}
+
+.before-forget-password{
+    margin-bottom: 10px
+}
+
+.buy-cart{
+    font-size: 14px;
+    color: black;
+}
+
+.fa-home:before {
+    content: "\f015";
+    font-family: FontAwesome;
+}
+
+/*.navbar-default .navbar-home12{*/
+    /*margin-left: 90px;*/
+/*}*/
+
+.logo-logo{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 100%;
+    margin: 0;
+}
+
+.navbar-main{
+    background-color: rgb(86, 179, 45);
+    border: none;
+    border-radius: 0;
+    height: 70px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
+.basket-container{
+    position: relative;
+    width: 180px;
+    padding: 15px 10px;
+    color: black;
+}
+
+.basket-container-registration{
+
+}
+
+.basket-container-registration-child{
+    text-align: center;
+    line-height: 17px;
+}
+
+.basket-container-registration-text{
+    color: black;
+    font-weight: 700;
+    /*line-height: 50%;*/
+}
+
+.basket-items{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: #55e093;
+    z-index: 10;
+    padding: 10px;
+}
+
+.form-error{
+    background-color: red;
+}
+
+/*Search field*/
+.search-main-top{
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    /*background-color: red;*/
+    height: 54px;
+    text-align: center;
+    /*min-height: 10px;*/
+    /*height: 20px;*/
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.find-icon{
+    background-image: url('../img/searchIcon16x16.png');
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 4px; /*Позиционируем*/
+    outline: none;
+    width: 100px;
+}
+
+/*Service product item block*/
+.logo-name{
+    height: 90px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    position: relative;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin-bottom: 1px;
+    /*border-bottom: 1px solid #f4f4f4;*/
+}
+.logo-img{
+    margin-left: 0px;
+}
+
+.img-cosmetolog-logo{
+    /*width: 100%;*/
+    height: 70px;
+    float: left;
+    /*display: table-cell;*/
+    /*vertical-align: middle*/
+    border-radius: 5px;
+}
+
+.service-product-item{
+    height: 310px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    position: relative;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.service-product-item-img{
+    /*background-color: green;*/
+    /*position: relative;*/
+}
+
+.img-service-product{
+    /*filter: alpha(Opacity=50);*/
+    /*opacity: 0.5;*/
+    /*position: relative;*/
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.round{
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 0 3px gray, 0 0 13px; /* Параметры теней */
+}
+
+.service-product-info{
+    /*position: absolute;*/
+    /*top: 250px;*/
+}
+
+.service-discount-container{
+    position: absolute;
+    top: 10%;
+    background: #55e073;
+    width: 30%;
+    color: white;
+    font-weight: 700;
+    padding: 3px;
+}
+
+.service-product-s-description{
+    height: 40px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.text-recommendation{
+    margin-left: 20px;
+}
+
+/*Modal ServiceOrder*/
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.service-product-item-order{
+    height: 200px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    position: relative;
+    padding: 10px 0 10px 0;
+    /*text-align: center;*/
+    margin-bottom: 10px;
+}
+
+/*List of Cosmetolog*/
+.all-service{
+    margin: 30px;
+}
+
+.title-block-list{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.49);
+    margin-bottom: 5px;
+}
+
+.low-price-title, .high-price-title{
+    padding:0;
+}
+
+.logo-name-list{
+    width: 95px;
+    /*background-color: white;*/
+    /*border: 1px solid lightgrey;*/
+    position: relative;
+    /*padding: 10px 0 10px 0;*/
+    text-align: center;
+}
+
+.img-cosmetolog-logo-list{
+    /*width: 100%;*/
+    height: 70px;
+    float: left;
+    /*display: table-cell;*/
+    /*vertical-align: middle*/
+    border-radius: 5px;
+    /*padding: 10px 0 10px 0;*/
+}
+
+.center-block-list{
+    height: 100px;
+}
+
+.service-discount-container-list, .service-product-price-list{
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+}
+
+.service-discount-container-list, .service-product-price-list > h4{
+    margin-bottom: 3px;
+}
+
+.add-to-cart-btn-list{
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.service-product-item-container{
+    border-bottom: 1px solid #fcf8e3;
+    /*margin-bottom: 5px;*/
+    padding-bottom: 5px;
+}
+
+/*List of tows in search-service html*/
+.choose-town{
+    background-color: #fefbdc;
+    border-radius: 10px;
+}
+.choose-town-title{
+    margin-top: 0px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.town-simple-list{
+    padding-left: 10px;
+}
+
+.town-simple-item{
+    color: #337ab7;
+    padding-right: 20px;
+    line-height: 25px;
+}
+
+.we-found-title{
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.description-region{
+    width: 155px;
+    height: 54px;
+}
+
+/*Cosmetolog item*/
+.cosmetolog-item{
+    height: 260px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    position: relative;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.img-cosmetolog{
+    width: 190px;
+    height: 150px;
+}
+
+/*profile*/
+.title_input_01{
+    margin-bottom: 0px;
+    font-weight: normal;
+    float: left;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.title_input_02{
+    padding-left: 0px;
+}
+
+.recommendation{
+    font-size: 10px;
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 80px;
+}
+
+.tel-index{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.tel-number{
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+/*Product Line Page*/
+.product-line-name {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 12px;
+}
+
+/*FOOTER*/
+.footer{
+    position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    height: 180px;
+    clear: both;
+    background-color: white;
+}
+
+.social-facebook{
+    font-size: 50px;
+    color: #4267b2;
+}
+
+.footer-credits{
+    color: #aaaaaa;
+    font-size: 10px;
 }

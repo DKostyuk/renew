@@ -3,8 +3,6 @@
 
 {% block content %}
 
-<h1>QWERTY Profile </h1>
-{{ aswer }}
 {#    {% if registration_success %}#}
 {#        <div class="general-container-background">#}
 {#            <div class="container top-container">#}
@@ -20,13 +18,12 @@
         <div class="general-container-background container-background">
             <div class="container top-container">
                 <div class="row">
-                    <h1 class="title">Please, fill your profile {{ username }}</h1>
+                    <h1 class="title text-center">{{ username }}<br>Profil - Personalizacja</h1>
                         <form action="/profile/" method="post" class="text-center">
                             {% csrf_token %}
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="col-lg-8 col-lg-offset-2">
-
                                         <div>
                                             <input name="user_id" class="form-control" value="{{ user_id }}" type="hidden">
                                         </div>
@@ -46,9 +43,9 @@
                                         {% endif %}
 
                                         <div class="form-group">
-                                            <label class="title_input_01">Company</label>
+                                            <label class="title_input_01">Nazwa firmy</label>
                                             <input name="{{ form.company_name.name }}" class="form-control"
-                                                   placeholder="Company Name" value="{{ user_company_name }}">
+                                                   placeholder="Nazwa firmy" value="{{ user_company_name }}">
                                         </div>
                                         <div class="form-group">
                                             <label class="title_input_01">NIP</label>
@@ -58,7 +55,7 @@
 
 
                                         <div class="col-lg-12 title_input_02">
-                                            <label class="title_input_01">Telephone Number</label>
+                                            <label class="title_input_01">Numer komórkowy</label>
                                         </div>
 
                                         <div class="form-group tel-index col-lg-2">
@@ -67,10 +64,11 @@
                                         <div class="form-group tel-number col-lg-10">
                                             <input name="{{ form.tel_number.name }}" class="form-control"
                                                    type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
-                                                   placeholder="Telephone Number" value="{{ user_tel_number }}">
+                                                   placeholder="Numer komórkowy" value="{{ user_tel_number }}">
                                         </div>
                                         <div class="col-lg-12 recommendation">
-                                            <p>Введите телефон в формате xxx-xxx-xxx, где вместо x должна быть цифра:</p>
+                                            <p>format XXX-XXX-XXX</p>
+{#                                            Введите телефон в формате XXX-XXX-XXX, где вместо X должна быть цифра#}
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +101,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-orange">Save</button>
+                            <button type="submit" class="btn btn-primary btn-orange">Zaktualizuj profil</button>
                         </form>
                 </div>
             </div>

@@ -220,6 +220,10 @@ html, body{
     margin-right: 10px;
 }
 
+.before-forget-password{
+    margin-bottom: 10px
+}
+
 .buy-cart{
     font-size: 14px;
     color: black;
@@ -261,6 +265,21 @@ html, body{
     width: 180px;
     padding: 15px 10px;
     color: black;
+}
+
+.basket-container-registration{
+
+}
+
+.basket-container-registration-child{
+    text-align: center;
+    line-height: 17px;
+}
+
+.basket-container-registration-text{
+    color: black;
+    font-weight: 700;
+    /*line-height: 50%;*/
 }
 
 .basket-items{
@@ -523,6 +542,7 @@ html, body{
     font-size: 10px;
     text-align: left;
     padding-left: 0px;
+    margin-left: 80px;
 }
 
 .tel-index{
