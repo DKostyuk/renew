@@ -17,23 +17,6 @@
    }
 },
 {
-   "model": "auth.user",
-   "fields": {
-      "password": "pbkdf2_sha256$36000$nzMKNddg5TB5$2sGSjQAsF97e2PdHwwX6Cu+2J1Obhk1YtGI31eTY6zk=",
-      "last_login": "2018-03-20T20:03:03.528Z",
-      "is_superuser": false,
-      "username": "dmyto.kostyuk@gmail.com",
-      "first_name": "",
-      "last_name": "",
-      "email": "dmyto.kostyuk@gmail.com",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2018-03-20T19:46:19.871Z",
-      "groups": [],
-      "user_permissions": []
-   }
-},
-{
    "model": "sessions.session",
    "pk": "0bfypoe9i1l5d5ew6r83ww0iyx8rup3w",
    "fields": {
@@ -9575,6 +9558,24 @@
       ],
       "object_id": "1",
       "object_repr": "User 1 Dmytro Kostyuk dkostyuk@ukr.net Kiev",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 174,
+   "fields": {
+      "action_time": "2018-03-20T23:00:28.868Z",
+      "user": [
+         "dkostyuk@ukr.net"
+      ],
+      "content_type": [
+         "auth",
+         "user"
+      ],
+      "object_id": "2",
+      "object_repr": "dmyto.kostyuk@gmail.com",
       "action_flag": 3,
       "change_message": ""
    }
