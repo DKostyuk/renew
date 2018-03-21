@@ -1,23 +1,5 @@
 [
 {
-   "model": "auth.user",
-   "pk": 3,
-   "fields": {
-      "password": "pbkdf2_sha256$36000$2PskFv3b7h93$ogIoEauPEUqGcDWWuCI037NCwXpbYChz+9n337fTvlY=",
-      "last_login": "2018-03-21T20:44:09.492Z",
-      "is_superuser": true,
-      "username": "admin",
-      "first_name": "",
-      "last_name": "",
-      "email": "dkostyuk@ukr.net",
-      "is_staff": true,
-      "is_active": true,
-      "date_joined": "2018-03-21T19:47:10.771Z",
-      "groups": [],
-      "user_permissions": []
-   }
-},
-{
    "model": "sessions.session",
    "pk": "0bfypoe9i1l5d5ew6r83ww0iyx8rup3w",
    "fields": {
@@ -207,26 +189,6 @@
    "fields": {
       "session_data": "YWE1MzM5ODRiNTdkOGE3ODZkYWQ2YThjYzFiNDA2M2Y2NGU0NmRiNTp7InNlc3Npb25fa2V5IjoxMjN9",
       "expire_date": "2018-03-18T09:25:57.422Z"
-   }
-},
-{
-   "model": "landing.subscriber",
-   "pk": 3,
-   "fields": {
-      "is_approved": false,
-      "email": "dkostyuk@ukr.net",
-      "email_confirm": false,
-      "name": "Dmytro Kostyuk",
-      "city": "Kiev",
-      "index": "03-162",
-      "street": "Zodchikh 50A-145",
-      "locality": null,
-      "tel_number": null,
-      "company_name": null,
-      "nip": null,
-      "company_confirm": false,
-      "user": 3,
-      "bio": ""
    }
 },
 {
@@ -6596,19 +6558,6 @@
       "type_id": 5,
       "type_level": 6,
       "is_active": true
-   }
-},
-{
-   "model": "admin.logentry",
-   "pk": 176,
-   "fields": {
-      "action_time": "2018-03-21T19:48:35.992Z",
-      "user": 3,
-      "content_type": 7,
-      "object_id": "3",
-      "object_repr": "User 3 Dmytro Kostyuk dkostyuk@ukr.net Kiev",
-      "action_flag": 2,
-      "change_message": "[{\"changed\": {\"fields\": [\"email\", \"name\", \"city\", \"index\", \"street\"]}}]"
    }
 }
 ]
