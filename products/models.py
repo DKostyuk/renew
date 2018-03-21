@@ -29,6 +29,7 @@ class Product(models.Model):
     size = models.CharField(max_length=10, blank=True, null=True, default=None)
     price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     discount = models.IntegerField(default=0)
+    rating = models.IntegerField(default=999)
     category = models.ForeignKey(ProductCategory, blank=True, null=True, default=None, on_delete=models.CASCADE)
     name_description = models.CharField(max_length=64, blank=True, null=True, default='Opis')
     description = RichTextField(default=None)
