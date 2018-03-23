@@ -54,7 +54,7 @@ def validate_save_user_send_email(request, newuser_form, email_1, username_origi
     message = render_to_string('landing/acc_confirmation_email.html', {
         'user': newuser,
         'domain': current_site.domain,
-        'uid': urlsafe_base64_encode(force_bytes(newuser.pk)),
+        'uid': urlsafe_base64_encode(force_bytes(newuser.pk)).decode(),
         'token': account_activation_token.make_token(newuser),
     })
     to_email = newuser_form.cleaned_data.get('email')
