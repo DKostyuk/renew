@@ -273,11 +273,16 @@ html, body{
 
 .basket-container-registration-child{
     text-align: center;
-    line-height: 17px;
+    background-color: violet;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 8px;
+    color: white;
 }
 
 .basket-container-registration-text{
-    color: black;
+    color: white;
     font-weight: 700;
     /*line-height: 50%;*/
 }
@@ -582,3 +587,44 @@ html, body{
     color: #aaaaaa;
     font-size: 10px;
 }
+
+
+/*Contact Page*/
+/*.map-box{*/
+    /*background-color: #333333;*/
+/*}*/
+
+.letter-box{
+    background-color: #fff043;
+    background: url('../img/bg_image.png') no-repeat;
+    background-size: cover;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+textarea.form-control.text-message{
+    height: 150px;
+}
+
+#map {
+    weight: 200px;
+    height: 400px;
+    background-color: grey;
+}
+
+.explanation-map-text{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.success-message-notification{
+    background-color: #ec00ff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/*######################################*/

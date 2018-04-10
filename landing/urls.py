@@ -68,5 +68,7 @@ urlpatterns = [
     url(r'^cosmetolog-in/(?P<q_1>[\w-]+)/(?P<q_2>[\w-]+)/(?P<q_3>[\w-]+)/$',views.search_address,
         name='search_address'),
 
+    url(r'^contact/$', views.contact, name='contact'),
+
     url(r'^navbar_01/$', views.navbar_01, name=' navbar_01'),
 ]

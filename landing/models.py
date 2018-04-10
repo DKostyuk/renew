@@ -81,3 +81,23 @@ class SliderMain(models.Model):
     class Meta:
         verbose_name = 'SliderMain'
         verbose_name_plural = 'SliderMains'
+
+
+class Letter(models.Model):
+    subject = models.CharField(max_length=64)
+    from_name = models.CharField(max_length=32)
+    email_sender = models.EmailField()
+    city_sender = models.CharField(max_length=32)
+    message = models.TextField(blank=True, null=True, default=None)
+    created = models.DateTimeField(auto_now_add=True, auto_now=False)
+    updated = models.DateTimeField(auto_now_add=False, auto_now=True)
+    user_name = models.CharField(max_length=32)
+    user_email = models.EmailField()
+    who_answer = models.CharField(max_length=64)
+
+    def __str__(self):
+        return "%s" % self.id
+
+    class Meta:
+        verbose_name = 'Letter'
+        verbose_name_plural = 'Letters'
