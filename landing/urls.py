@@ -69,6 +69,7 @@ urlpatterns = [
         name='search_address'),
 
     url(r'^contact/$', views.contact, name='contact'),
+    url(r'^about/$', views.about, name='about'),
 
     url(r'^navbar_01/$', views.navbar_01, name=' navbar_01'),
 ]

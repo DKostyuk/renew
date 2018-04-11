@@ -594,3 +594,13 @@ def contact(request):
             # print(form.error_messages)
 
     return render(request, 'landing/contact.html', locals())
+
+
+def about(request):
+    session_key = request.session.session_key
+    args = {}
+    about_text_object = Page.objects.get(is_active=True, page_name="About")
+    print(about_text_object)
+    # about_text = about_text_object.page_text
+
+    return render(request, 'landing/about.html', locals())

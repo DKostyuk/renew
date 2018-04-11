@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+from ckeditor_uploader.fields import RichTextUploadingField
 
 
 class Subscriber(models.Model):
@@ -101,3 +102,20 @@ class Letter(models.Model):
     class Meta:
         verbose_name = 'Letter'
         verbose_name_plural = 'Letters'
+
+
+class Page(models.Model):
+    page_name = models.CharField(max_length=32)
+    is_main_menu = models.BooleanField(default=False)
+    rate_main_menu = models.IntegerField(blank=True, null=True, default=None)
+    page_text = RichTextUploadingField(blank=True, null=True, default=None)
+    is_active = models.BooleanField(default=False)
+    created = models.DateTimeField(auto_now_add=True, auto_now=False)
+    updated = models.DateTimeField(auto_now_add=False, auto_now=True)
+
+    def __str__(self):
+        return "%s" % self.id
+
+    class Meta:
+        verbose_name = 'Page'
+        verbose_name_plural = 'Pages'
