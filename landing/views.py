@@ -171,6 +171,7 @@ def profile(request):
         # user_profile.save()
         if user_profile_form.is_valid():
             user_profile_form.save()
+            profile_success = "success"
         else:
             form = user_profile_form
             print(99999999999999)

@@ -35,7 +35,7 @@ urlpatterns = [
 
     url(r'^password_reset/$', password_reset,
         {'template_name': 'landing/password_reset.html', 'email_template_name': 'landing/password_reset_email.html',
-         'from_email': 'reset_password@ukr.net'},
+         'from_email': 'biuro@renew-polska.pl'},
         name='password-reset'),
     url(r'^password_reset_confirm/(?P<uidb64>[-\w]+)/(?P<token>[-\w]+)/$', password_reset_confirm,
         {'template_name': 'landing/password_reset_confirm.html'},

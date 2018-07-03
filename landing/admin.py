@@ -41,6 +41,17 @@ class SliderMainAdmin (admin.ModelAdmin):
 admin.site.register(SliderMain, SliderMainAdmin)
 
 
+class LetterAdmin (admin.ModelAdmin):
+    list_display = [field.name for field in Letter._meta.fields]
+    # fields = ['activation_date', 'deactivation_date', 'ad_name',
+    #           'ad_customer', 'ad_description', 'is_active', 'is_main']
+
+    class Meta:
+        model = Letter
+
+admin.site.register(Letter, LetterAdmin)
+
+
 class PageAdmin (admin.ModelAdmin):
     list_display = [field.name for field in Page._meta.fields]
     # fields = ['activation_date', 'deactivation_date', 'ad_name',

@@ -3,7 +3,8 @@
         <div>
             <div class="center-block img-product">
                  <a href="{% url 'product' product_image.product.slug %}">
-                    <img src="{{ product_image.image.url }}" class = "img-responsive">
+                    <img src="{{ product_image.image.url }}" class = "img-responsive"
+                         title="{{ product_image.title_text }}" alt="{{ product_image.alt_text }}">
                 </a>
             </div>
             {% if product_image.product.discount and username and user_approved == True %}

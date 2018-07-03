@@ -66,6 +66,8 @@ class Product(models.Model):
 class ProductImage(models.Model):
     product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='products_images/')
+    title_text = models.CharField(max_length=128, blank=True, null=True, default=None)
+    alt_text = models.CharField(max_length=40, blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
     is_main = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)

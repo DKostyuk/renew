@@ -3,8 +3,16 @@
 {% autoescape off %}
 
     Witamy {{ newuser.username }},
-    Aby ustawić hasło, przejdź na stronę:
+    Twoje konto  zostało utworzone na stronie www.renew-polska.pl
+    Żeby aktywować konto, przejdź za posyłaniem i wypełnij dodatkowe informację
     http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+    Pozdrawiamy,
+    RENEW-POLSKA Sp. z o. o.
+    Oficjalny dystrybutor profesjonalnych kosmetyków RENEW (Izrael)
+    Oficjalny dystrybutor urządzenia kosmetycznego Alvi-Prague (Czechy)
+    Warszawa, ul.Lektykarska 26
+    tel.:+48 574 012 745
 
 {% endautoescape %}
 

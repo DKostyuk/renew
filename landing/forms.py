@@ -8,7 +8,7 @@ class SubscriberForm(forms.ModelForm):
 
     class Meta:
         model = Subscriber
-        fields = ["tel_number", "nip", "company_name", "index", "city", "street", "locality"]
+        fields = ["tel_number", "nip", "company_name", "index", "city", "street", "house", "locality"]
 
 
 class UserRegistrationForm(UserCreationForm):

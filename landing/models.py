@@ -13,6 +13,7 @@ class Subscriber(models.Model):
     city = models.CharField(max_length=56, blank=True, null=True, default=None)
     index = models.CharField(max_length=6, blank=True, null=True, default=None)
     street = models.CharField(max_length=30, blank=True, null=True, default=None)
+    house = models.CharField(max_length=10, blank=True, null=True, default=None)
     locality = models.CharField(max_length=10, blank=True, null=True, default=None)
     tel_number = models.CharField(max_length=11, blank=True, null=True, default=None)
     company_name = models.CharField(max_length=64, blank=True, null=True, default=None)

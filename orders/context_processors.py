@@ -34,6 +34,8 @@ def getting_basket_info(request):
             user_city = user_current.city
         if user_current.street:
             user_street = user_current.street
+        if user_current.house:
+            user_house = user_current.house
         if user_current.locality:
             user_locality = user_current.locality
 

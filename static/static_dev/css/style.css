@@ -220,6 +220,17 @@ html, body{
     margin-right: 10px;
 }
 
+.navbar-home12{
+    margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+}
+
 .before-forget-password{
     margin-bottom: 10px
 }
@@ -250,10 +261,31 @@ html, body{
 }
 
 .navbar-main{
-    background-color: rgb(86, 179, 45);
+    background-color: rgb(86, 179, 45)!Important;
     border: none;
     border-radius: 0;
-    height: 70px;
+    /*height: 70px;*/
+    width: 100%;
+}
+
+/*.navbar-toggler{*/
+    /*background-color: lightgrey;*/
+/*}*/
+
+.nav-link{
+    color: #FFFFFF!Important;
+}
+
+.navbar-nav li:hover{
+    background-color: #a553a5;
+}
+
+.active{
+    background-color: lightgrey;
+}
+
+.current{
+    background-color: #a553a5;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -262,18 +294,21 @@ html, body{
 
 .basket-container{
     position: relative;
-    width: 180px;
+    /*width: 180px;*/
     padding: 15px 10px;
     color: black;
 }
 
-.basket-container-registration{
 
+@media screen and (min-width: 768px) {
+    .basket-container, .basket-container-registration{
+        margin-left: 50px;
+    }
 }
 
 .basket-container-registration-child{
     text-align: center;
-    background-color: violet;
+    background-color: #a553a5;
     padding: 5px;
     font-size: 12px;
     line-height: 14px;
@@ -578,9 +613,14 @@ html, body{
     background-color: white;
 }
 
-.social-facebook{
+.social-facebook-1{
     font-size: 50px;
     color: #4267b2;
+}
+
+.social-facebook-2{
+    font-size: 50px;
+    color: orangered;
 }
 
 .footer-credits{

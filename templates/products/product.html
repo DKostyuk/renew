@@ -8,7 +8,8 @@
             <div class="col-lg-4">
                 {% for image_item in product.productimage_set.all %}
                     <div class="product-image-item">
-                        <img src="{{ image_item.image.url }}" class="img-responsive">
+                        <img src="{{ image_item.image.url }}" class="img-responsive"
+                             title="{{ image_item.title_text }}" alt="{{ image_item.alt_text }}">
                     </div>
                 {% endfor %}
                 <div class="product-line-name">
